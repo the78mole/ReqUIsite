@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="db/d69/XMLTagScanner_8java" kind="file" language="Java">
+    <compoundname>XMLTagScanner.java</compoundname>
+    <innerclass refid="d1/d4d/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLTagScanner" prot="public">com::chaintronics::the78mole::reqtool::editors::XMLTagScanner</innerclass>
+    <innernamespace refid="d8/dfe/namespacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors">com::chaintronics::the78mole::reqtool::editors</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">com.chaintronics.the78mole.reqtool.editors;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.eclipse.jface.text.*;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.eclipse.jface.text.rules.*;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="d1/d4d/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLTagScanner" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d1/d4d/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLTagScanner" kindref="compound">XMLTagScanner</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>RuleBasedScanner<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d1/d4d/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLTagScanner" kindref="compound">XMLTagScanner</ref>(<ref refid="da/d37/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ColorManager" kindref="compound">ColorManager</ref><sp/>manager)<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IToken<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Token(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>TextAttribute(manager.getColor(<ref refid="db/d57/interfacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1IXMLColorConstants" kindref="compound">IXMLColorConstants</ref>.STRING)));</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IRule[]<sp/>rules<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>IRule[3];</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>rule<sp/>for<sp/>double<sp/>quotes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rules[0]<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SingleLineRule(</highlight><highlight class="stringliteral">&quot;\&quot;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;\&quot;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;\\&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>a<sp/>rule<sp/>for<sp/>single<sp/>quotes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rules[1]<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SingleLineRule(</highlight><highlight class="stringliteral">&quot;&apos;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&apos;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;\\&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>generic<sp/>whitespace<sp/>rule.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rules[2]<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>WhitespaceRule(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d8/d1e/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLWhitespaceDetector" kindref="compound">XMLWhitespaceDetector</ref>());</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setRules(rules);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLTagScanner.java"/>
+  </compounddef>
+</doxygen>

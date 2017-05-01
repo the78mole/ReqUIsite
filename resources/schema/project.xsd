@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="urn:the78mole:project"
+	version="1.0" xml:lang="en" xmlns="urn:the78mole:project" xmlns:proj="urn:the78mole:project"
+	xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<!-- Load the XHTML 1.1 strict schema. -->
+	<xs:import namespace="http://www.w3.org/1999/xhtml"
+		schemaLocation="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd" />
+
+	<!-- Define the only document element. -->
+	<xs:element name="project">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="title" type="xs:string" />
+				<xs:element name="version" type="xs:string" />
+				<xs:element name="introduction" type="introduction" />
+				<xs:element name="editHistory" type="history" />
+				<xs:element name="references" type="references" minOccurs="0"/>
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+		Shared Types ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+	<xs:complexType name="block">
+		<xs:choice maxOccurs="unbounded" minOccurs="0">
+			<xs:group ref="xhtml:block" />
+		</xs:choice>
+	</xs:complexType>
+
+	<xs:complexType mixed="true" name="block-and-inline">
+		<xs:choice maxOccurs="unbounded" minOccurs="0">
+			<xs:group ref="xhtml:block" />
+			<xs:group ref="xhtml:inline" />
+		</xs:choice>
+	</xs:complexType>
+
+	<xs:complexType name="inline" mixed="true">
+		<xs:choice maxOccurs="unbounded" minOccurs="0">
+			<xs:group ref="xhtml:inline" />
+		</xs:choice>
+	</xs:complexType>
+
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+		Introduction ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+	<xs:complexType name="introduction">
+		<xs:all>
+			<xs:element name="purpose" type="block-and-inline" />
+			<xs:element name="scope" type="block-and-inline" />
+			<xs:element name="overview" type="block-and-inline" />
+		</xs:all>
+	</xs:complexType>
+
+	<xs:complexType name="references">
+		<xs:sequence>
+			<xs:element name="reference" type="reference" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="reference">
+	  <xs:simpleContent>
+	    <xs:extension base="xs:string">
+   			<xs:attribute name="link" type="xs:anyURI" use="required"/>
+   			<xs:attribute name="type" type="refTypes" use="required"/>
+	   	</xs:extension>
+	  </xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:simpleType name="refTypes">
+	  <xs:restriction base="xs:string">
+	    <xs:enumeration value="UNDEF"/>
+	  	<xs:enumeration value="CustomerSpec"/> <!-- restricted to a single one -->
+	  	<xs:enumeration value="Standard"/>
+	  	<xs:enumeration value="TargetSpec"/> <!-- restricted to a single one -->
+	  	<xs:enumeration value="SysSpec"/>
+	  	<xs:enumeration value="MechSpec"/>
+	  	<xs:enumeration value="SWSpec"/>
+	  	<xs:enumeration value="HWSpec"/>
+	  </xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="history">
+		<xs:sequence>
+			<xs:element name="entry" type="historyEntry" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="historyEntry">
+	  <xs:simpleContent>
+	    <xs:extension base="xs:string">
+   			<xs:attribute name="date" type="xs:dateTime" use="required"/>
+	   		<xs:attribute name="author" type="xs:string" use="required"/>
+	   	</xs:extension>
+	  </xs:simpleContent>
+	</xs:complexType>
+
+</xs:schema>

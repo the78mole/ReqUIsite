@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="d1/d4d/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLTagScanner" kind="class" language="Java" prot="public">
+    <compoundname>com::chaintronics::the78mole::reqtool::editors::XMLTagScanner</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">RuleBasedScanner</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d4d/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLTagScanner_1ad3009ebeb0f6f92d536a0dcceb3d66a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.chaintronics.the78mole.reqtool.editors.XMLTagScanner.XMLTagScanner</definition>
+        <argsstring>(ColorManager manager)</argsstring>
+        <name>XMLTagScanner</name>
+        <param>
+          <type><ref refid="da/d37/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ColorManager" kindref="compound">ColorManager</ref></type>
+          <declname>manager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLTagScanner.java" line="8" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLTagScanner.java" bodystart="8" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="92">
+        <label>com.chaintronics.the78mole.reqtool.editors.XMLTagScanner</label>
+        <link refid="d1/d4d/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLTagScanner"/>
+        <childnode refid="93" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>RuleBasedScanner</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="94">
+        <label>com.chaintronics.the78mole.reqtool.editors.XMLTagScanner</label>
+        <link refid="d1/d4d/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLTagScanner"/>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>RuleBasedScanner</label>
+      </node>
+    </collaborationgraph>
+    <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLTagScanner.java" line="6" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLTagScanner.java" bodystart="6" bodyend="22"/>
+    <listofallmembers>
+      <member refid="d1/d4d/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLTagScanner_1ad3009ebeb0f6f92d536a0dcceb3d66a5" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::XMLTagScanner</scope><name>XMLTagScanner</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dd/d77/Mainpage_8md" kind="file" language="Markdown">
+    <compoundname>Mainpage.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>ReqUIsite<sp/>Main<sp/>Page<sp/>{#mainpage}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">ReqUIsite<sp/>is<sp/>a<sp/>toolset<sp/>to<sp/>make<sp/>the<sp/>requirements<sp/>the<sp/>heart<sp/>of<sp/>a<sp/>SW,<sp/></highlight></codeline>
+<codeline><highlight class="normal">embedded<sp/>or<sp/>any<sp/>other<sp/>project.</highlight></codeline>
+<codeline></codeline>
+    </programlisting>
+    <location file="pages/Mainpage.md"/>
+  </compounddef>
+</doxygen>

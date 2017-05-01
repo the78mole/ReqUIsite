@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d8/d1e/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLWhitespaceDetector">
+<title>com::chaintronics::the78mole::reqtool::editors::XMLWhitespaceDetector class Reference</title>
+<para>Inheritance diagram for com::chaintronics::the78mole::reqtool::editors::XMLWhitespaceDetector</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../d0/de4/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLWhitespaceDetector__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for com::chaintronics::the78mole::reqtool::editors::XMLWhitespaceDetector</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../d9/d74/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLWhitespaceDetector__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>boolean <link linkend="d8/d1e/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLWhitespaceDetector_1abe9d98842ad54c5bf37b251285a250dc">isWhitespace</link> (
+char c)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="d8/d1e/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLWhitespaceDetector_1abe9d98842ad54c5bf37b251285a250dc">
+                <title>boolean com.chaintronics.the78mole.reqtool.editors.XMLWhitespaceDetector.isWhitespace (char c)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

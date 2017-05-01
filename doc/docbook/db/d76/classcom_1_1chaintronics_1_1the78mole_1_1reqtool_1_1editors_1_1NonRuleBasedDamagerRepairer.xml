@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer">
+<title>com::chaintronics::the78mole::reqtool::editors::NonRuleBasedDamagerRepairer class Reference</title>
+<para>Inheritance diagram for com::chaintronics::the78mole::reqtool::editors::NonRuleBasedDamagerRepairer</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../d2/d6c/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for com::chaintronics::the78mole::reqtool::editors::NonRuleBasedDamagerRepairer</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../d6/de9/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>IDocument fDocument</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>TextAttribute fDefaultTextAttribute</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1acb2650452d412c2367f28fde06d7a0fc">NonRuleBasedDamagerRepairer</link> (
+TextAttribute defaultTextAttribute)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1ac69c3b0864311d6cd7d5257ac3c9d9fd">setDocument</link> (
+IDocument document)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>IRegion <link linkend="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1a8df47e48742130998926b23d7307cf28">getDamageRegion</link> (
+ITypedRegion partition, DocumentEvent event, boolean documentPartitioningChanged)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1a66f92d866aefdc4b3e973204707283e3">createPresentation</link> (
+TextPresentation presentation, ITypedRegion region)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1ad64ebcce95bd22599ff2bcc34f7cee51">endOfLineOf</link> (
+int offset)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1a415c83ab6ed22f7209097cce40fceffd">addRange</link> (
+TextPresentation presentation, int offset, int length, TextAttribute attr)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+            <simplesect>
+                <title>IDocument com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer.fDocument</title>                
+<para>The document this object works on </para>
+
+                <para>Definition at line 19 of file NonRuleBasedDamagerRepairer.java</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>NonRuleBasedDamagerRepairer.java</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>TextAttribute com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer.fDefaultTextAttribute</title>                
+<para>The default text attribute if non is returned as data by the current token </para>
+
+                <para>Definition at line 21 of file NonRuleBasedDamagerRepairer.java</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>NonRuleBasedDamagerRepairer.java</para></listitem></itemizedlist></para>
+            </simplesect>
+        </section>
+            <section xml:id="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1acb2650452d412c2367f28fde06d7a0fc">
+                <title>com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer.NonRuleBasedDamagerRepairer (TextAttribute defaultTextAttribute)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1ac69c3b0864311d6cd7d5257ac3c9d9fd">
+                <title>void com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer.setDocument (IDocument document)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1a8df47e48742130998926b23d7307cf28">
+                <title>IRegion com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer.getDamageRegion (ITypedRegion partition, DocumentEvent event, boolean documentPartitioningChanged)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1a66f92d866aefdc4b3e973204707283e3">
+                <title>void com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer.createPresentation (TextPresentation presentation, ITypedRegion region)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1ad64ebcce95bd22599ff2bcc34f7cee51">
+                <title>int com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer.endOfLineOf (int offset)</title> <emphasis></emphasis>
+                
+<para>Returns the end offset of the line that contains the specified offset or if the offset is inside a line delimiter, the end offset of the next line.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>offset</entry>
+                                <entry>
+<para>the offset whose line end offset must be computed </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>the line end offset for the given offset </para>
+</formalpara>
+
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Exceptions                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>BadLocationException</entry>
+                                <entry>
+<para>if offset is invalid in the current document </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1a415c83ab6ed22f7209097cce40fceffd">
+                <title>void com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer.addRange (TextPresentation presentation, int offset, int length, TextAttribute attr)</title> <emphasis></emphasis>
+                
+<para>Adds style information to the given text presentation.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>presentation</entry>
+                                <entry>
+<para>the text presentation to be extended </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>offset</entry>
+                                <entry>
+<para>the offset of the range to be styled </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>length</entry>
+                                <entry>
+<para>the length of the range to be styled </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>attr</entry>
+                                <entry>
+<para>the attribute describing the style of the range to be styled </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

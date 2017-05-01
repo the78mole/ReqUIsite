@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d0/d14/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor">
+<title>com::chaintronics::the78mole::reqtool::editors::ReqXMLEditor class Reference</title>
+<para>Inheritance diagram for com::chaintronics::the78mole::reqtool::editors::ReqXMLEditor</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../dc/d84/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for com::chaintronics::the78mole::reqtool::editors::ReqXMLEditor</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../d1/df9/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>ColorManager colorManager</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/d14/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor_1a05845bcfedc7b6f447dcaa45e97159ed">ReqXMLEditor</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d0/d14/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor_1a9f2b2cb31534ba6febeb5139e9e1a3b2">dispose</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="d0/d14/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor_1a05845bcfedc7b6f447dcaa45e97159ed">
+                <title>com.chaintronics.the78mole.reqtool.editors.ReqXMLEditor.ReqXMLEditor ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d0/d14/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor_1a9f2b2cb31534ba6febeb5139e9e1a3b2">
+                <title>void com.chaintronics.the78mole.reqtool.editors.ReqXMLEditor.dispose ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dir_85e70ee13875bae2dadf1c80fca76e53">
+    <title>eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors Directory Reference</title>
+<para>Directory dependency diagram for eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors</para>
+<para>
+    <figure>
+        <title>Directory Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../dir_85e70ee13875bae2dadf1c80fca76e53_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <simplesect>
+            <title> File </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d2/d77/ColorManager_8java">ColorManager.java</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d5/d0e/IXMLColorConstants_8java">IXMLColorConstants.java</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d5/dfb/NonRuleBasedDamagerRepairer_8java">NonRuleBasedDamagerRepairer.java</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d7/d94/ReqXMLEditor_8java">ReqXMLEditor.java</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d3/d5e/TagRule_8java">TagRule.java</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="dc/da0/XMLConfiguration_8java">XMLConfiguration.java</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d2/d16/XMLDocumentProvider_8java">XMLDocumentProvider.java</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d7/d76/XMLDoubleClickStrategy_8java">XMLDoubleClickStrategy.java</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="dd/dc7/XMLPartitionScanner_8java">XMLPartitionScanner.java</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="dd/d33/XMLScanner_8java">XMLScanner.java</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="db/d69/XMLTagScanner_8java">XMLTagScanner.java</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d5/def/XMLWhitespaceDetector_8java">XMLWhitespaceDetector.java</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Detailed Description</title>
+    <para>Directory location is /home/daniel/GIT/requisite/eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/</para>
+    </simplesect>
+</section>

@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration" kind="class" language="Java" prot="public">
+    <compoundname>com::chaintronics::the78mole::reqtool::editors::XMLConfiguration</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SourceViewerConfiguration</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a8795fa32657c453ca4ae807ab5b4bae8" prot="private" static="no" mutable="no">
+        <type><ref refid="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy" kindref="compound">XMLDoubleClickStrategy</ref></type>
+        <definition>XMLDoubleClickStrategy com.chaintronics.the78mole.reqtool.editors.XMLConfiguration.doubleClickStrategy</definition>
+        <argsstring></argsstring>
+        <name>doubleClickStrategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" line="14" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1ab46f6a82189c10458d093991f7dcf738" prot="private" static="no" mutable="no">
+        <type><ref refid="d1/d4d/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLTagScanner" kindref="compound">XMLTagScanner</ref></type>
+        <definition>XMLTagScanner com.chaintronics.the78mole.reqtool.editors.XMLConfiguration.tagScanner</definition>
+        <argsstring></argsstring>
+        <name>tagScanner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" line="15" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1affb7e4a9693ea46a9fe30e39ff1a3754" prot="private" static="no" mutable="no">
+        <type><ref refid="dd/dfc/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLScanner" kindref="compound">XMLScanner</ref></type>
+        <definition>XMLScanner com.chaintronics.the78mole.reqtool.editors.XMLConfiguration.scanner</definition>
+        <argsstring></argsstring>
+        <name>scanner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" line="16" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a8cf15603d4b6c8a6305cbd1dce311d7c" prot="private" static="no" mutable="no">
+        <type><ref refid="da/d37/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ColorManager" kindref="compound">ColorManager</ref></type>
+        <definition>ColorManager com.chaintronics.the78mole.reqtool.editors.XMLConfiguration.colorManager</definition>
+        <argsstring></argsstring>
+        <name>colorManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" line="17" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a6e10884d928f1316ffd7db44afa2dd70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.chaintronics.the78mole.reqtool.editors.XMLConfiguration.XMLConfiguration</definition>
+        <argsstring>(ColorManager colorManager)</argsstring>
+        <name>XMLConfiguration</name>
+        <param>
+          <type><ref refid="da/d37/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ColorManager" kindref="compound">ColorManager</ref></type>
+          <declname>colorManager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" line="19" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" bodystart="19" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1aee9ffb7058159e5f5fe07a934cfd9672" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String[]</type>
+        <definition>String [] com.chaintronics.the78mole.reqtool.editors.XMLConfiguration.getConfiguredContentTypes</definition>
+        <argsstring>(ISourceViewer sourceViewer)</argsstring>
+        <name>getConfiguredContentTypes</name>
+        <param>
+          <type>ISourceViewer</type>
+          <declname>sourceViewer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" line="24" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" bodystart="24" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a9eae03526b6ed28614607a2dda80c0f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ITextDoubleClickStrategy</type>
+        <definition>ITextDoubleClickStrategy com.chaintronics.the78mole.reqtool.editors.XMLConfiguration.getDoubleClickStrategy</definition>
+        <argsstring>(ISourceViewer sourceViewer, String contentType)</argsstring>
+        <name>getDoubleClickStrategy</name>
+        <param>
+          <type>ISourceViewer</type>
+          <declname>sourceViewer</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>contentType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" line="32" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" bodystart="32" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a551b2edc0bc078fbb4e769f163c1105e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IPresentationReconciler</type>
+        <definition>IPresentationReconciler com.chaintronics.the78mole.reqtool.editors.XMLConfiguration.getPresentationReconciler</definition>
+        <argsstring>(ISourceViewer sourceViewer)</argsstring>
+        <name>getPresentationReconciler</name>
+        <param>
+          <type>ISourceViewer</type>
+          <declname>sourceViewer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" line="62" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" bodystart="62" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a800ad014c1970bcb3909223a1bb40722" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dd/dfc/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLScanner" kindref="compound">XMLScanner</ref></type>
+        <definition>XMLScanner com.chaintronics.the78mole.reqtool.editors.XMLConfiguration.getXMLScanner</definition>
+        <argsstring>()</argsstring>
+        <name>getXMLScanner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" line="40" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" bodystart="40" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1aa67eae3ac47d202431882ea8885463ac" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d1/d4d/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLTagScanner" kindref="compound">XMLTagScanner</ref></type>
+        <definition>XMLTagScanner com.chaintronics.the78mole.reqtool.editors.XMLConfiguration.getXMLTagScanner</definition>
+        <argsstring>()</argsstring>
+        <name>getXMLTagScanner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" line="50" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" bodystart="50" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="73">
+        <label>SourceViewerConfiguration</label>
+      </node>
+      <node id="72">
+        <label>com.chaintronics.the78mole.reqtool.editors.XMLConfiguration</label>
+        <link refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration"/>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="75">
+        <label>SourceViewerConfiguration</label>
+      </node>
+      <node id="74">
+        <label>com.chaintronics.the78mole.reqtool.editors.XMLConfiguration</label>
+        <link refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration"/>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" line="13" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLConfiguration.java" bodystart="13" bodyend="81"/>
+    <listofallmembers>
+      <member refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a8cf15603d4b6c8a6305cbd1dce311d7c" prot="private" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::XMLConfiguration</scope><name>colorManager</name></member>
+      <member refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a8795fa32657c453ca4ae807ab5b4bae8" prot="private" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::XMLConfiguration</scope><name>doubleClickStrategy</name></member>
+      <member refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1aee9ffb7058159e5f5fe07a934cfd9672" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::XMLConfiguration</scope><name>getConfiguredContentTypes</name></member>
+      <member refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a9eae03526b6ed28614607a2dda80c0f7" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::XMLConfiguration</scope><name>getDoubleClickStrategy</name></member>
+      <member refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a551b2edc0bc078fbb4e769f163c1105e" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::XMLConfiguration</scope><name>getPresentationReconciler</name></member>
+      <member refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a800ad014c1970bcb3909223a1bb40722" prot="protected" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::XMLConfiguration</scope><name>getXMLScanner</name></member>
+      <member refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1aa67eae3ac47d202431882ea8885463ac" prot="protected" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::XMLConfiguration</scope><name>getXMLTagScanner</name></member>
+      <member refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1affb7e4a9693ea46a9fe30e39ff1a3754" prot="private" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::XMLConfiguration</scope><name>scanner</name></member>
+      <member refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1ab46f6a82189c10458d093991f7dcf738" prot="private" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::XMLConfiguration</scope><name>tagScanner</name></member>
+      <member refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a6e10884d928f1316ffd7db44afa2dd70" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::XMLConfiguration</scope><name>XMLConfiguration</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

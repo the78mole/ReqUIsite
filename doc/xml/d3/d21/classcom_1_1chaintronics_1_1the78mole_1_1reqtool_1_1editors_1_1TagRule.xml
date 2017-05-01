@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="d3/d21/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1TagRule" kind="class" language="Java" prot="public">
+    <compoundname>com::chaintronics::the78mole::reqtool::editors::TagRule</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MultiLineRule</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d21/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1TagRule_1a0676c599d4e25168dece4f6165753799" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.chaintronics.the78mole.reqtool.editors.TagRule.TagRule</definition>
+        <argsstring>(IToken token)</argsstring>
+        <name>TagRule</name>
+        <param>
+          <type>IToken</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/TagRule.java" line="7" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/TagRule.java" bodystart="7" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d3/d21/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1TagRule_1a5eda9ef246d8c0b0d127008d62f13acd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.chaintronics.the78mole.reqtool.editors.TagRule.sequenceDetected</definition>
+        <argsstring>(ICharacterScanner scanner, char[] sequence, boolean eofAllowed)</argsstring>
+        <name>sequenceDetected</name>
+        <param>
+          <type>ICharacterScanner</type>
+          <declname>scanner</declname>
+        </param>
+        <param>
+          <type>char[]</type>
+          <declname>sequence</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>eofAllowed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/TagRule.java" line="12" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/TagRule.java" bodystart="12" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="68">
+        <label>com.chaintronics.the78mole.reqtool.editors.TagRule</label>
+        <link refid="d3/d21/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1TagRule"/>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>MultiLineRule</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="70">
+        <label>com.chaintronics.the78mole.reqtool.editors.TagRule</label>
+        <link refid="d3/d21/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1TagRule"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>MultiLineRule</label>
+      </node>
+    </collaborationgraph>
+    <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/TagRule.java" line="5" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/TagRule.java" bodystart="5" bodyend="30"/>
+    <listofallmembers>
+      <member refid="d3/d21/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1TagRule_1a5eda9ef246d8c0b0d127008d62f13acd" prot="protected" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::TagRule</scope><name>sequenceDetected</name></member>
+      <member refid="d3/d21/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1TagRule_1a0676c599d4e25168dece4f6165753799" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::TagRule</scope><name>TagRule</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

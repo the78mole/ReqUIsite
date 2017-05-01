@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_5212d75a7cafc4ae3f599805864311fc" kind="dir">
+    <compoundname>eclipse/com.chaintronics.the78mole/src</compoundname>
+    <innerdir refid="dir_d933fba85db283ce70e8e2dbf38d0d71">eclipse/com.chaintronics.the78mole/src/com</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="eclipse/com.chaintronics.the78mole/src/"/>
+  </compounddef>
+</doxygen>

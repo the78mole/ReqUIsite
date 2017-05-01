@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy">
+<title>com::chaintronics::the78mole::reqtool::editors::XMLDoubleClickStrategy class Reference</title>
+<para>Inheritance diagram for com::chaintronics::the78mole::reqtool::editors::XMLDoubleClickStrategy</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../da/d27/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for com::chaintronics::the78mole::reqtool::editors::XMLDoubleClickStrategy</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../d6/de8/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>ITextViewer fText</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1aafb5075ca8ad6bc4c3f58cef6a4a147e">doubleClicked</link> (
+ITextViewer part)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>boolean <link linkend="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1aaddd88f373e37650766ac6b6db87db2b">selectComment</link> (
+int caretPos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>boolean <link linkend="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1af29578db7c267c0ce8e3612de04d9fd8">selectWord</link> (
+int caretPos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1a4fee243e72bfcd209406d36b86b53ddd">selectRange</link> (
+int startPos, int stopPos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1aafb5075ca8ad6bc4c3f58cef6a4a147e">
+                <title>void com.chaintronics.the78mole.reqtool.editors.XMLDoubleClickStrategy.doubleClicked (ITextViewer part)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1aaddd88f373e37650766ac6b6db87db2b">
+                <title>boolean com.chaintronics.the78mole.reqtool.editors.XMLDoubleClickStrategy.selectComment (int caretPos)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1af29578db7c267c0ce8e3612de04d9fd8">
+                <title>boolean com.chaintronics.the78mole.reqtool.editors.XMLDoubleClickStrategy.selectWord (int caretPos)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1a4fee243e72bfcd209406d36b86b53ddd">
+                <title>void com.chaintronics.the78mole.reqtool.editors.XMLDoubleClickStrategy.selectRange (int startPos, int stopPos)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

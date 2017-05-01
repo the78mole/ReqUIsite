@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_5a7dbde958ef7c41c26309133b88240f" kind="dir">
+    <compoundname>resources/assets/js/jquery</compoundname>
+    <innerfile refid="d8/d4f/cookie_8js">cookie.js</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="resources/assets/js/jquery/"/>
+  </compounddef>
+</doxygen>

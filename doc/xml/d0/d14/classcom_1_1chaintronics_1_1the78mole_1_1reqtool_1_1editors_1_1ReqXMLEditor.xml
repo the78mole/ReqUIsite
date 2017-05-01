@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="d0/d14/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor" kind="class" language="Java" prot="public">
+    <compoundname>com::chaintronics::the78mole::reqtool::editors::ReqXMLEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TextEditor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d0/d14/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor_1ae737d14587219b8bb6e7fd68791f47d0" prot="private" static="no" mutable="no">
+        <type><ref refid="da/d37/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ColorManager" kindref="compound">ColorManager</ref></type>
+        <definition>ColorManager com.chaintronics.the78mole.reqtool.editors.ReqXMLEditor.colorManager</definition>
+        <argsstring></argsstring>
+        <name>colorManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/ReqXMLEditor.java" line="7" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/ReqXMLEditor.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d14/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor_1a05845bcfedc7b6f447dcaa45e97159ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.chaintronics.the78mole.reqtool.editors.ReqXMLEditor.ReqXMLEditor</definition>
+        <argsstring>()</argsstring>
+        <name>ReqXMLEditor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/ReqXMLEditor.java" line="9" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/ReqXMLEditor.java" bodystart="9" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d14/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor_1a9f2b2cb31534ba6febeb5139e9e1a3b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.chaintronics.the78mole.reqtool.editors.ReqXMLEditor.dispose</definition>
+        <argsstring>()</argsstring>
+        <name>dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/ReqXMLEditor.java" line="16" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/ReqXMLEditor.java" bodystart="16" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="64">
+        <label>com.chaintronics.the78mole.reqtool.editors.ReqXMLEditor</label>
+        <link refid="d0/d14/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor"/>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>TextEditor</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="66">
+        <label>com.chaintronics.the78mole.reqtool.editors.ReqXMLEditor</label>
+        <link refid="d0/d14/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor"/>
+        <childnode refid="67" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>TextEditor</label>
+      </node>
+    </collaborationgraph>
+    <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/ReqXMLEditor.java" line="5" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/ReqXMLEditor.java" bodystart="5" bodyend="21"/>
+    <listofallmembers>
+      <member refid="d0/d14/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor_1ae737d14587219b8bb6e7fd68791f47d0" prot="private" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::ReqXMLEditor</scope><name>colorManager</name></member>
+      <member refid="d0/d14/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor_1a9f2b2cb31534ba6febeb5139e9e1a3b2" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::ReqXMLEditor</scope><name>dispose</name></member>
+      <member refid="d0/d14/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor_1a05845bcfedc7b6f447dcaa45e97159ed" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::ReqXMLEditor</scope><name>ReqXMLEditor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

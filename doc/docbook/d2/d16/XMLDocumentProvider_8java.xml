@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d2/d16/XMLDocumentProvider_8java">
+    <title>XMLDocumentProvider.java File Reference</title>
+<para>Include dependency diagram for XMLDocumentProvider.java</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../d2/d38/XMLDocumentProvider_8java__incl.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Included by dependency diagram for XMLDocumentProvider.java</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../d9/d95/XMLDocumentProvider_8java__dep__incl.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title> Classes </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="dc/d22/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDocumentProvider">com::chaintronics::the78mole::reqtool::editors::XMLDocumentProvider</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <simplesect>
+            <title> Namespaces </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d8/dfe/namespacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors">com::chaintronics::the78mole::reqtool::editors</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Detailed Description</title>
+    <para>Definition in file /home/daniel/GIT/requisite/eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLDocumentProvider.java</para>
+    </simplesect>
+</section>

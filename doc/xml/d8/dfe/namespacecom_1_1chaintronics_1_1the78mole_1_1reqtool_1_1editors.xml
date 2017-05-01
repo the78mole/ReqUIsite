@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="d8/dfe/namespacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors" kind="namespace" language="Java">
+    <compoundname>com::chaintronics::the78mole::reqtool::editors</compoundname>
+    <innerclass refid="da/d37/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ColorManager" prot="public">com::chaintronics::the78mole::reqtool::editors::ColorManager</innerclass>
+    <innerclass refid="db/d57/interfacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1IXMLColorConstants" prot="public">com::chaintronics::the78mole::reqtool::editors::IXMLColorConstants</innerclass>
+    <innerclass refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer" prot="public">com::chaintronics::the78mole::reqtool::editors::NonRuleBasedDamagerRepairer</innerclass>
+    <innerclass refid="d0/d14/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor" prot="public">com::chaintronics::the78mole::reqtool::editors::ReqXMLEditor</innerclass>
+    <innerclass refid="d3/d21/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1TagRule" prot="public">com::chaintronics::the78mole::reqtool::editors::TagRule</innerclass>
+    <innerclass refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration" prot="public">com::chaintronics::the78mole::reqtool::editors::XMLConfiguration</innerclass>
+    <innerclass refid="dc/d22/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDocumentProvider" prot="public">com::chaintronics::the78mole::reqtool::editors::XMLDocumentProvider</innerclass>
+    <innerclass refid="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy" prot="public">com::chaintronics::the78mole::reqtool::editors::XMLDoubleClickStrategy</innerclass>
+    <innerclass refid="dd/d32/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner" prot="public">com::chaintronics::the78mole::reqtool::editors::XMLPartitionScanner</innerclass>
+    <innerclass refid="dd/dfc/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLScanner" prot="public">com::chaintronics::the78mole::reqtool::editors::XMLScanner</innerclass>
+    <innerclass refid="d1/d4d/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLTagScanner" prot="public">com::chaintronics::the78mole::reqtool::editors::XMLTagScanner</innerclass>
+    <innerclass refid="d8/d1e/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLWhitespaceDetector" prot="public">com::chaintronics::the78mole::reqtool::editors::XMLWhitespaceDetector</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/ColorManager.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

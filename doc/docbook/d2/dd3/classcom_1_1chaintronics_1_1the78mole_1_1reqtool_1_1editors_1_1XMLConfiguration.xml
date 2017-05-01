@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration">
+<title>com::chaintronics::the78mole::reqtool::editors::XMLConfiguration class Reference</title>
+<para>Inheritance diagram for com::chaintronics::the78mole::reqtool::editors::XMLConfiguration</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../d1/dc0/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for com::chaintronics::the78mole::reqtool::editors::XMLConfiguration</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../d1/ded/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>XMLDoubleClickStrategy doubleClickStrategy</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>XMLTagScanner tagScanner</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>XMLScanner scanner</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>ColorManager colorManager</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a6e10884d928f1316ffd7db44afa2dd70">XMLConfiguration</link> (
+<link linkend="da/d37/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ColorManager">ColorManager</link> colorManager)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String[] <link linkend="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1aee9ffb7058159e5f5fe07a934cfd9672">getConfiguredContentTypes</link> (
+ISourceViewer sourceViewer)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>ITextDoubleClickStrategy <link linkend="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a9eae03526b6ed28614607a2dda80c0f7">getDoubleClickStrategy</link> (
+ISourceViewer sourceViewer, String contentType)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>IPresentationReconciler <link linkend="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a551b2edc0bc078fbb4e769f163c1105e">getPresentationReconciler</link> (
+ISourceViewer sourceViewer)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="dd/dfc/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLScanner">XMLScanner</link> <link linkend="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a800ad014c1970bcb3909223a1bb40722">getXMLScanner</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="d1/d4d/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLTagScanner">XMLTagScanner</link> <link linkend="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1aa67eae3ac47d202431882ea8885463ac">getXMLTagScanner</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a6e10884d928f1316ffd7db44afa2dd70">
+                <title>com.chaintronics.the78mole.reqtool.editors.XMLConfiguration.XMLConfiguration (ColorManager colorManager)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1aee9ffb7058159e5f5fe07a934cfd9672">
+                <title>String [] com.chaintronics.the78mole.reqtool.editors.XMLConfiguration.getConfiguredContentTypes (ISourceViewer sourceViewer)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a9eae03526b6ed28614607a2dda80c0f7">
+                <title>ITextDoubleClickStrategy com.chaintronics.the78mole.reqtool.editors.XMLConfiguration.getDoubleClickStrategy (ISourceViewer sourceViewer, String contentType)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a551b2edc0bc078fbb4e769f163c1105e">
+                <title>IPresentationReconciler com.chaintronics.the78mole.reqtool.editors.XMLConfiguration.getPresentationReconciler (ISourceViewer sourceViewer)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a800ad014c1970bcb3909223a1bb40722">
+                <title>XMLScanner com.chaintronics.the78mole.reqtool.editors.XMLConfiguration.getXMLScanner ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1aa67eae3ac47d202431882ea8885463ac">
+                <title>XMLTagScanner com.chaintronics.the78mole.reqtool.editors.XMLConfiguration.getXMLTagScanner ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

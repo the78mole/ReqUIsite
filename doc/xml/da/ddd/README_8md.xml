@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="da/ddd/README_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">Software<sp/>Requirements<sp/>Specification</highlight></codeline>
+<codeline><highlight class="normal">===================================</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>package<sp/>contains<sp/>an<sp/>XML<sp/>schema<sp/>and<sp/>a<sp/>set<sp/>of<sp/>stylesheets<sp/>for<sp/>creating<sp/>a</highlight></codeline>
+<codeline><highlight class="normal">requirements<sp/>specification<sp/>as<sp/>shown<sp/>in<sp/>[Applied<sp/>Software<sp/>Project<sp/>Management][].</highlight></codeline>
+<codeline><highlight class="normal">A<sp/>big<sp/>thank<sp/>you<sp/>to<sp/>both<sp/>[Andrew<sp/>Stellman<sp/>and<sp/>Jennifer<sp/>Greene][]<sp/>for<sp/>making<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">[outline][]<sp/>available<sp/>online<sp/>as<sp/>a<sp/>PDF!</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Preview</highlight></codeline>
+<codeline><highlight class="normal">-------</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">[Let&apos;s<sp/>start<sp/>off<sp/>with<sp/>a<sp/>preview!][]</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">What&apos;s<sp/>inside</highlight></codeline>
+<codeline><highlight class="normal">-------------</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>BASH<sp/>Scripts</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Bootstrap<sp/>3.3.6</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>jQuery<sp/>2.2.0</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>PERL<sp/>Scripts</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>XML<sp/>Schema</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>XML<sp/>Stylesheets</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">What<sp/>you<sp/>need</highlight></codeline>
+<codeline><highlight class="normal">-------------</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>A<sp/>modern<sp/>browser<sp/>than<sp/>can<sp/>render<sp/>XML<sp/>using<sp/>XSL.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Experience<sp/>editing<sp/>XML<sp/>documents.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Your<sp/>all-time<sp/>favorite<sp/>XML<sp/>editor.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`xmllint`<sp/>if<sp/>you<sp/>want<sp/>to<sp/>use<sp/>`tools/validate.sh`.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>PERL<sp/>5.8+<sp/>with<sp/>`XML::LibXML`<sp/>if<sp/>you<sp/>want<sp/>to<sp/>use<sp/>`tools/fix-ids.pl`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">How<sp/>it<sp/>works</highlight></codeline>
+<codeline><highlight class="normal">------------</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">An<sp/>SRS<sp/>is<sp/>created<sp/>by<sp/>authoring<sp/>an<sp/>XML<sp/>document<sp/>which<sp/>conforms<sp/>to<sp/>the<sp/>included</highlight></codeline>
+<codeline><highlight class="normal">XML<sp/>schema.<sp/>The<sp/>XML<sp/>document<sp/>may<sp/>then<sp/>be<sp/>opened<sp/>in<sp/>a<sp/>browser<sp/>and<sp/>viewed<sp/>as<sp/>an</highlight></codeline>
+<codeline><highlight class="normal">HTML<sp/>page.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>magic<sp/>all<sp/>happens<sp/>with<sp/>the<sp/>opening<sp/>XML<sp/>tags:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```xml</highlight></codeline>
+<codeline><highlight class="normal">&lt;?xml<sp/>version=&quot;1.0&quot;<sp/>encoding=&quot;UTF-8&quot;?&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;?xml-stylesheet<sp/>href=&quot;styles/specification.xsl&quot;<sp/>type=&quot;text/xsl&quot;?&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;specification</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>xmlns=&quot;urn:kherge:specification&quot;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>xmlns:x=&quot;http://www.w3.org/1999/xhtml&quot;</highlight></codeline>
+<codeline><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>`xml-stylesheet`<sp/>tag<sp/>will<sp/>render<sp/>the<sp/>specification<sp/>using<sp/>the<sp/>included<sp/>XML</highlight></codeline>
+<codeline><highlight class="normal">stylesheets.<sp/>The<sp/>stylesheets<sp/>generate<sp/>Bootstrap<sp/>3<sp/>compatible<sp/>HTML<sp/>elements<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">produce<sp/>a<sp/>responsive<sp/>and<sp/>printable<sp/>web<sp/>page.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>`xmlns=&quot;urn:kherge:specification&quot;`<sp/>will<sp/>allow<sp/>your<sp/>editor<sp/>to<sp/>validate<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">XML<sp/>document<sp/>using<sp/>the<sp/>schema<sp/>in<sp/>`schema/specification.xsd`.<sp/>Your<sp/>editor<sp/>may</highlight></codeline>
+<codeline><highlight class="normal">need<sp/>to<sp/>be<sp/>configured<sp/>to<sp/>recognize<sp/>the<sp/>schema.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">How<sp/>to<sp/>get<sp/>started</highlight></codeline>
+<codeline><highlight class="normal">------------------</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Preparing</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">I<sp/>suggest<sp/>you<sp/>take<sp/>a<sp/>good<sp/>look<sp/>at<sp/>the<sp/>provided<sp/>`example.xml`<sp/>document.<sp/>It<sp/>makes</highlight></codeline>
+<codeline><highlight class="normal">use<sp/>of<sp/>all<sp/>of<sp/>the<sp/>elements<sp/>that<sp/>are<sp/>defined<sp/>by<sp/>the<sp/>schema.<sp/>The<sp/>XML<sp/>tags<sp/>are</highlight></codeline>
+<codeline><highlight class="normal">structured<sp/>very<sp/>closely<sp/>to<sp/>how<sp/>the<sp/>PDF<sp/>(linked<sp/>to<sp/>earlier)<sp/>describes<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">specification<sp/>should<sp/>be<sp/>written.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>the<sp/>example,<sp/>you<sp/>will<sp/>notice<sp/>some<sp/>instances<sp/>of<sp/>XML<sp/>elements<sp/>being<sp/>prefixed</highlight></codeline>
+<codeline><highlight class="normal">with<sp/>`x:`.<sp/>The<sp/>schema<sp/>allows<sp/>you<sp/>to<sp/>use<sp/>HTML<sp/>in<sp/>nearly<sp/>all<sp/>instances<sp/>of<sp/>where</highlight></codeline>
+<codeline><highlight class="normal">you<sp/>provide<sp/>information.<sp/>Unfortunately<sp/>due<sp/>to<sp/>limitations<sp/>on<sp/>how<sp/>XML<sp/>schemas</highlight></codeline>
+<codeline><highlight class="normal">work,<sp/>you<sp/>need<sp/>to<sp/>prefix<sp/>all<sp/>of<sp/>the<sp/>HTML<sp/>elements<sp/>with<sp/>`x:`<sp/>(or<sp/>whatever<sp/>else</highlight></codeline>
+<codeline><highlight class="normal">you<sp/>used<sp/>for<sp/>the<sp/>namespace).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Authoring</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">You<sp/>can<sp/>use<sp/>this<sp/>template<sp/>to<sp/>start<sp/>a<sp/>new<sp/>specification:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```xml</highlight></codeline>
+<codeline><highlight class="normal">&lt;?xml<sp/>version=&quot;1.0&quot;<sp/>encoding=&quot;UTF-8&quot;?&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;?xml-stylesheet<sp/>href=&quot;styles/specification.xsl&quot;<sp/>type=&quot;text/xsl&quot;?&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;specification<sp/>xmlns=&quot;urn:kherge:specification&quot;<sp/>xmlns:x=&quot;http://www.w3.org/1999/xhtml&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;project&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;name&gt;My<sp/>Project&lt;/name&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/project&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/specification&gt;</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">With<sp/>the<sp/>included<sp/>example<sp/>specification<sp/>and<sp/>the<sp/>XML<sp/>schema,<sp/>you<sp/>should<sp/>be<sp/>able</highlight></codeline>
+<codeline><highlight class="normal">to<sp/>create<sp/>a<sp/>new<sp/>specification<sp/>in<sp/>no<sp/>time.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Rendering</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">To<sp/>view<sp/>your<sp/>specification,<sp/>you<sp/>are<sp/>expected<sp/>to<sp/>use<sp/>the<sp/>following<sp/>directory</highlight></codeline>
+<codeline><highlight class="normal">structure:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>assets/</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>...</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>schema/</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>...</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>styles/</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>...</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>mySpec.xml</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&gt;<sp/>Your<sp/>XML<sp/>document<sp/>could<sp/>be<sp/>named<sp/>anything,<sp/>not<sp/>just<sp/>`mySpec.xml`.<sp/>For<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>sake<sp/>of<sp/>this<sp/>tutorial,<sp/>I<sp/>will<sp/>be<sp/>using<sp/>`mySpec.xml`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">You<sp/>would<sp/>then<sp/>open<sp/>`mySpec.xml`<sp/>in<sp/>your<sp/>browser<sp/>and<sp/>see<sp/>a<sp/>fully<sp/>rendered<sp/>HTML</highlight></codeline>
+<codeline><highlight class="normal">page.<sp/>If<sp/>you<sp/>just<sp/>see<sp/>a<sp/>mess<sp/>of<sp/>text,<sp/>it<sp/>is<sp/>likely<sp/>that<sp/>your<sp/>browser<sp/>does<sp/>not</highlight></codeline>
+<codeline><highlight class="normal">support<sp/>rendering<sp/>XML<sp/>documents<sp/>using<sp/>the<sp/>file<sp/>system.<sp/>If<sp/>this<sp/>is<sp/>the<sp/>case,<sp/>you</highlight></codeline>
+<codeline><highlight class="normal">will<sp/>need<sp/>to<sp/>make<sp/>the<sp/>files<sp/>accessible<sp/>through<sp/>a<sp/>web<sp/>server<sp/>and<sp/>access<sp/>the<sp/>XML</highlight></codeline>
+<codeline><highlight class="normal">document<sp/>as<sp/>a<sp/>web<sp/>page.<sp/>If<sp/>this<sp/>also<sp/>does<sp/>not<sp/>work,<sp/>you<sp/>will<sp/>need<sp/>to<sp/>run<sp/>your</highlight></codeline>
+<codeline><highlight class="normal">XML<sp/>document<sp/>through<sp/>an<sp/>XSL<sp/>processor<sp/>and<sp/>save<sp/>the<sp/>result<sp/>as<sp/>an<sp/>HTML<sp/>file<sp/>in</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>same<sp/>directory.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>Printing</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Firefox<sp/>is<sp/>the<sp/>best<sp/>browser<sp/>to<sp/>use<sp/>if<sp/>you<sp/>need<sp/>to<sp/>print<sp/>your<sp/>specification.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Tests<sp/>done<sp/>on<sp/>Safari<sp/>and<sp/>Chrome<sp/>have<sp/>shown<sp/>that<sp/>the<sp/>page<sp/>dimensions<sp/>are<sp/>not</highlight></codeline>
+<codeline><highlight class="normal">calculated<sp/>correctly.<sp/>As<sp/>a<sp/>result,<sp/>you<sp/>may<sp/>see<sp/>that<sp/>the<sp/>table<sp/>of<sp/>contents</highlight></codeline>
+<codeline><highlight class="normal">continues<sp/>down<sp/>the<sp/>left<sp/>side<sp/>instead<sp/>taking<sp/>up<sp/>the<sp/>full<sp/>width<sp/>of<sp/>the<sp/>page.</highlight></codeline>
+<codeline><highlight class="normal">You<sp/>may<sp/>also<sp/>notice<sp/>that<sp/>page<sp/>breaks<sp/>do<sp/>not<sp/>work<sp/>properly<sp/>after<sp/>the<sp/>title</highlight></codeline>
+<codeline><highlight class="normal">page.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Tools</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>`fix-ids.pl`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">As<sp/>you<sp/>write<sp/>your<sp/>specification,<sp/>you<sp/>may<sp/>need<sp/>to<sp/>re-arrange<sp/>some<sp/>use<sp/>cases<sp/>or</highlight></codeline>
+<codeline><highlight class="normal">requirements.<sp/>Going<sp/>back<sp/>and<sp/>renumbering<sp/>everything<sp/>can<sp/>become<sp/>a<sp/>real<sp/>pain!<sp/>To</highlight></codeline>
+<codeline><highlight class="normal">avoid<sp/>doing<sp/>this,<sp/>leave<sp/>all<sp/>of<sp/>the<sp/>numbers<sp/>alone<sp/>and<sp/>then<sp/>run<sp/>`fix-ids.pl`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>tools/fix-ids.pl<sp/>mySpec.xml</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>`next-ids.pl`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Like<sp/>before,<sp/>you<sp/>may<sp/>rearrange<sp/>use<sp/>cases<sp/>or<sp/>requirements<sp/>and<sp/>end<sp/>up<sp/>losing</highlight></codeline>
+<codeline><highlight class="normal">track<sp/>of<sp/>which<sp/>number<sp/>comes<sp/>next.<sp/>The<sp/>`next-ids.pl`<sp/>tool<sp/>will<sp/>display<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">next<sp/>available<sp/>number<sp/>for<sp/>use<sp/>cases<sp/>and<sp/>requirements.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>tools/next-ids.pl<sp/>mySpec.xml</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>`validate.sh`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">If<sp/>you<sp/>want<sp/>to<sp/>ensure<sp/>that<sp/>your<sp/>specification<sp/>will<sp/>render<sp/>correctly,<sp/>you<sp/>will</highlight></codeline>
+<codeline><highlight class="normal">want<sp/>to<sp/>occassionally<sp/>validate<sp/>your<sp/>XML<sp/>document<sp/>and<sp/>fix<sp/>any<sp/>changes<sp/>that<sp/>you</highlight></codeline>
+<codeline><highlight class="normal">may<sp/>encounter.<sp/>To<sp/>find<sp/>problems,<sp/>run<sp/>the<sp/>`validate.sh`<sp/>tool.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>tools/validate.sh<sp/>mySpec.xml</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">License</highlight></codeline>
+<codeline><highlight class="normal">-------</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>package<sp/>is<sp/>released<sp/>under<sp/>the<sp/>MIT<sp/>license,<sp/>so<sp/>use,<sp/>mangle,<sp/>and<sp/>share!</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">[Let&apos;s<sp/>start<sp/>off<sp/>with<sp/>a<sp/>preview!]:<sp/>https://cdn.rawgit.com/kherge/srs/f4f857aadfae8c47b9491c80ca875a216e142e3f/example.xml</highlight></codeline>
+<codeline><highlight class="normal">[Applied<sp/>Software<sp/>Project<sp/>Management]:<sp/>http://www.stellman-greene.com/about/applied-software-project-management/</highlight></codeline>
+<codeline><highlight class="normal">[Andrew<sp/>Stellman<sp/>and<sp/>Jennifer<sp/>Greene]:<sp/>http://www.stellman-greene.com/</highlight></codeline>
+<codeline><highlight class="normal">[outline]:<sp/>http://www.stellman-greene.com/images/stories/Library/SRS%20Outline.pdf</highlight></codeline>
+    </programlisting>
+    <location file="resources/README.md"/>
+  </compounddef>
+</doxygen>

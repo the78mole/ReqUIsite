@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            name="Requirements XML Editor"
+            extensions="reqxml"
+            icon="icons/sample.gif"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            class="com.chaintronics.the78mole.reqtool.editors.ReqXMLEditor"
+            id="com.chaintronics.the78mole.reqtool.editors.ReqXMLEditor">
+      </editor>
+   </extension>
+
+</plugin>

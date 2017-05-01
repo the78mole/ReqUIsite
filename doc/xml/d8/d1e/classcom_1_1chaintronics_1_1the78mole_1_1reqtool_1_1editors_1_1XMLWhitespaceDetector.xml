@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="d8/d1e/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLWhitespaceDetector" kind="class" language="Java" prot="public">
+    <compoundname>com::chaintronics::the78mole::reqtool::editors::XMLWhitespaceDetector</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IWhitespaceDetector</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/d1e/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLWhitespaceDetector_1abe9d98842ad54c5bf37b251285a250dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.chaintronics.the78mole.reqtool.editors.XMLWhitespaceDetector.isWhitespace</definition>
+        <argsstring>(char c)</argsstring>
+        <name>isWhitespace</name>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLWhitespaceDetector.java" line="8" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLWhitespaceDetector.java" bodystart="8" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="97">
+        <label>IWhitespaceDetector</label>
+      </node>
+      <node id="96">
+        <label>com.chaintronics.the78mole.reqtool.editors.XMLWhitespaceDetector</label>
+        <link refid="d8/d1e/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLWhitespaceDetector"/>
+        <childnode refid="97" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="99">
+        <label>IWhitespaceDetector</label>
+      </node>
+      <node id="98">
+        <label>com.chaintronics.the78mole.reqtool.editors.XMLWhitespaceDetector</label>
+        <link refid="d8/d1e/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLWhitespaceDetector"/>
+        <childnode refid="99" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLWhitespaceDetector.java" line="5" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLWhitespaceDetector.java" bodystart="5" bodyend="11"/>
+    <listofallmembers>
+      <member refid="d8/d1e/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLWhitespaceDetector_1abe9d98842ad54c5bf37b251285a250dc" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::XMLWhitespaceDetector</scope><name>isWhitespace</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

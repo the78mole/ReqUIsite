@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dir_c70baf07d000ad5871d28574b958830a">
+    <title>eclipse/com.chaintronics.the78mole/src/com/chaintronics Directory Reference</title>
+<para>Directory dependency diagram for eclipse/com.chaintronics.the78mole/src/com/chaintronics</para>
+<para>
+    <figure>
+        <title>Directory Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../dir_c70baf07d000ad5871d28574b958830a_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <simplesect>
+            <title> Directories </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>dir <link linkend="dir_aaa598b24b0974709d79cda4c24ea144">eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Detailed Description</title>
+    <para>Directory location is /home/daniel/GIT/requisite/eclipse/com.chaintronics.the78mole/src/com/chaintronics/</para>
+    </simplesect>
+</section>

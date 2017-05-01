@@ -1,0 +1,123 @@
+This package contains an X\+ML schema and a set of stylesheets for creating a requirements specification as shown in \href{http://www.stellman-greene.com/about/applied-software-project-management/}{\tt Applied Software Project Management}. A big thank you to both \href{http://www.stellman-greene.com/}{\tt Andrew Stellman and Jennifer Greene} for making the \href{http://www.stellman-greene.com/images/stories/Library/SRS%20Outline.pdf}{\tt outline} available online as a P\+D\+F!
+
+\subsection*{Preview }
+
+\href{https://cdn.rawgit.com/kherge/srs/f4f857aadfae8c47b9491c80ca875a216e142e3f/example.xml}{\tt Let\textquotesingle{}s start off with a preview!}
+
+\subsection*{What\textquotesingle{}s inside }
+
+
+\begin{DoxyItemize}
+\item B\+A\+SH Scripts
+\item Bootstrap 3.\+3.\+6
+\item j\+Query 2.\+2.\+0
+\item P\+E\+RL Scripts
+\item X\+ML Schema
+\item X\+ML Stylesheets
+\end{DoxyItemize}
+
+\subsection*{What you need }
+
+
+\begin{DoxyItemize}
+\item A modern browser than can render X\+ML using X\+SL.
+\item Experience editing X\+ML documents.
+\item Your all-\/time favorite X\+ML editor.
+\item {\ttfamily xmllint} if you want to use {\ttfamily tools/validate.\+sh}.
+\item P\+E\+RL 5.\+8+ with {\ttfamily X\+M\+L\+::\+Lib\+X\+ML} if you want to use {\ttfamily tools/fix-\/ids.\+pl}.
+\end{DoxyItemize}
+
+\subsection*{How it works }
+
+An S\+RS is created by authoring an X\+ML document which conforms to the included X\+ML schema. The X\+ML document may then be opened in a browser and viewed as an H\+T\+ML page.
+
+The magic all happens with the opening X\+ML tags\+:
+
+
+\begin{DoxyCode}
+1 <?\textcolor{keyword}{xml} \textcolor{keyword}{version}=\textcolor{stringliteral}{"1.0"} \textcolor{keyword}{encoding}=\textcolor{stringliteral}{"UTF-8"}?>
+2 <?\textcolor{keyword}{xml-stylesheet} \textcolor{keyword}{href}=\textcolor{stringliteral}{"styles/specification.xsl"} \textcolor{keyword}{type}=\textcolor{stringliteral}{"text/xsl"}?>
+3 <\textcolor{keywordtype}{specification}
+4   \textcolor{keyword}{xmlns}=\textcolor{stringliteral}{"urn:kherge:specification"}
+5   \textcolor{keyword}{xmlns:x}=\textcolor{stringliteral}{"http://www.w3.org/1999/xhtml"}
+6 >
+\end{DoxyCode}
+
+
+The {\ttfamily xml-\/stylesheet} tag will render the specification using the included X\+ML stylesheets. The stylesheets generate Bootstrap 3 compatible H\+T\+ML elements to produce a responsive and printable web page.
+
+The {\ttfamily xmlns=\char`\"{}urn\+:kherge\+:specification\char`\"{}} will allow your editor to validate the X\+ML document using the schema in {\ttfamily schema/specification.\+xsd}. Your editor may need to be configured to recognize the schema.
+
+\subsection*{How to get started }
+
+\subsubsection*{Preparing}
+
+I suggest you take a good look at the provided {\ttfamily example.\+xml} document. It makes use of all of the elements that are defined by the schema. The X\+ML tags are structured very closely to how the P\+DF (linked to earlier) describes the specification should be written.
+
+In the example, you will notice some instances of X\+ML elements being prefixed with {\ttfamily x\+:}. The schema allows you to use H\+T\+ML in nearly all instances of where you provide information. Unfortunately due to limitations on how X\+ML schemas work, you need to prefix all of the H\+T\+ML elements with {\ttfamily x\+:} (or whatever else you used for the namespace).
+
+\subsubsection*{Authoring}
+
+You can use this template to start a new specification\+:
+
+
+\begin{DoxyCode}
+1 <?\textcolor{keyword}{xml} \textcolor{keyword}{version}=\textcolor{stringliteral}{"1.0"} \textcolor{keyword}{encoding}=\textcolor{stringliteral}{"UTF-8"}?>
+2 <?\textcolor{keyword}{xml-stylesheet} \textcolor{keyword}{href}=\textcolor{stringliteral}{"styles/specification.xsl"} \textcolor{keyword}{type}=\textcolor{stringliteral}{"text/xsl"}?>
+3 <\textcolor{keywordtype}{specification} \textcolor{keyword}{xmlns}=\textcolor{stringliteral}{"urn:kherge:specification"} \textcolor{keyword}{xmlns:x}=\textcolor{stringliteral}{"http://www.w3.org/1999/xhtml"}>
+4   <\textcolor{keywordtype}{project}>
+5     <\textcolor{keywordtype}{name}>\textcolor{keyword}{My} \textcolor{keyword}{Project}</\textcolor{keywordtype}{name}>
+6   </\textcolor{keywordtype}{project}>
+7 </\textcolor{keywordtype}{specification}>
+\end{DoxyCode}
+
+
+With the included example specification and the X\+ML schema, you should be able to create a new specification in no time.
+
+\subsubsection*{Rendering}
+
+To view your specification, you are expected to use the following directory structure\+: \begin{DoxyVerb}assets/
+    ...
+schema/
+    ...
+styles/
+    ...
+mySpec.xml
+\end{DoxyVerb}
+
+
+\begin{quote}
+Your X\+ML document could be named anything, not just {\ttfamily my\+Spec.\+xml}. For the sake of this tutorial, I will be using {\ttfamily my\+Spec.\+xml}. \end{quote}
+
+
+You would then open {\ttfamily my\+Spec.\+xml} in your browser and see a fully rendered H\+T\+ML page. If you just see a mess of text, it is likely that your browser does not support rendering X\+ML documents using the file system. If this is the case, you will need to make the files accessible through a web server and access the X\+ML document as a web page. If this also does not work, you will need to run your X\+ML document through an X\+SL processor and save the result as an H\+T\+ML file in the same directory.
+
+\paragraph*{Printing}
+
+Firefox is the best browser to use if you need to print your specification.
+
+Tests done on Safari and Chrome have shown that the page dimensions are not calculated correctly. As a result, you may see that the table of contents continues down the left side instead taking up the full width of the page. You may also notice that page breaks do not work properly after the title page.
+
+\subsubsection*{Tools}
+
+\subsubsection*{{\ttfamily fix-\/ids.\+pl}}
+
+As you write your specification, you may need to re-\/arrange some use cases or requirements. Going back and renumbering everything can become a real pain! To avoid doing this, leave all of the numbers alone and then run {\ttfamily fix-\/ids.\+pl}. \begin{DoxyVerb}tools/fix-ids.pl mySpec.xml
+\end{DoxyVerb}
+
+
+\subsubsection*{{\ttfamily next-\/ids.\+pl}}
+
+Like before, you may rearrange use cases or requirements and end up losing track of which number comes next. The {\ttfamily next-\/ids.\+pl} tool will display the next available number for use cases and requirements. \begin{DoxyVerb}tools/next-ids.pl mySpec.xml
+\end{DoxyVerb}
+
+
+\subsubsection*{{\ttfamily validate.\+sh}}
+
+If you want to ensure that your specification will render correctly, you will want to occassionally validate your X\+ML document and fix any changes that you may encounter. To find problems, run the {\ttfamily validate.\+sh} tool. \begin{DoxyVerb}tools/validate.sh mySpec.xml
+\end{DoxyVerb}
+
+
+\subsection*{License }
+
+This package is released under the M\+IT license, so use, mangle, and share! 

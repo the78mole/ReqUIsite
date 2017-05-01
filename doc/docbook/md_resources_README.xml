@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Software Requirements Specification</title>
+
+<para>This package contains an XML schema and a set of stylesheets for creating a requirements specification as shown in <link xlink:href="http://www.stellman-greene.com/about/applied-software-project-management/">Applied Software Project Management</link>. A big thank you to both <link xlink:href="http://www.stellman-greene.com/">Andrew Stellman and Jennifer Greene</link> for making the <link xlink:href="http://www.stellman-greene.com/images/stories/Library/SRS%20Outline.pdf">outline</link> available online as a PDF!</para>
+
+<para><formalpara><title>Preview </title></formalpara>
+</para>
+
+<para><link xlink:href="https://cdn.rawgit.com/kherge/srs/f4f857aadfae8c47b9491c80ca875a216e142e3f/example.xml">Let&apos;s start off with a preview!</link></para>
+
+<para><formalpara><title>What&apos;s inside </title></formalpara>
+</para>
+
+<para><itemizedlist>
+<listitem>
+<para>BASH Scripts</para>
+</listitem><listitem>
+<para>Bootstrap 3.3.6</para>
+</listitem><listitem>
+<para>jQuery 2.2.0</para>
+</listitem><listitem>
+<para>PERL Scripts</para>
+</listitem><listitem>
+<para>XML Schema</para>
+</listitem><listitem>
+<para>XML Stylesheets</para>
+</listitem></itemizedlist>
+</para>
+
+<para><formalpara><title>What you need </title></formalpara>
+</para>
+
+<para><itemizedlist>
+<listitem>
+<para>A modern browser than can render XML using XSL.</para>
+</listitem><listitem>
+<para>Experience editing XML documents.</para>
+</listitem><listitem>
+<para>Your all-time favorite XML editor.</para>
+</listitem><listitem>
+<para><computeroutput>xmllint</computeroutput> if you want to use <computeroutput>tools/validate.sh</computeroutput>.</para>
+</listitem><listitem>
+<para>PERL 5.8+ with <computeroutput>XML::LibXML</computeroutput> if you want to use <computeroutput>tools/fix-ids.pl</computeroutput>.</para>
+</listitem></itemizedlist>
+</para>
+
+<para><formalpara><title>How it works </title></formalpara>
+</para>
+
+<para>An SRS is created by authoring an XML document which conforms to the included XML schema. The XML document may then be opened in a browser and viewed as an HTML page.</para>
+
+<para>The magic all happens with the opening XML tags:</para>
+
+<para><literallayout><computeroutput>&lt;?xml&#32;version=&quot;1.0&quot;&#32;encoding=&quot;UTF-8&quot;?&gt;
+&lt;?xml-stylesheet&#32;href=&quot;styles/specification.xsl&quot;&#32;type=&quot;text/xsl&quot;?&gt;
+&lt;specification
+&#32;&#32;xmlns=&quot;urn:kherge:specification&quot;
+&#32;&#32;xmlns:x=&quot;http://www.w3.org/1999/xhtml&quot;
+&gt;
+</computeroutput></literallayout></para>
+
+<para>The <computeroutput>xml-stylesheet</computeroutput> tag will render the specification using the included XML stylesheets. The stylesheets generate Bootstrap 3 compatible HTML elements to produce a responsive and printable web page.</para>
+
+<para>The <computeroutput>xmlns=&quot;urn:kherge:specification&quot;</computeroutput> will allow your editor to validate the XML document using the schema in <computeroutput>schema/specification.xsd</computeroutput>. Your editor may need to be configured to recognize the schema.</para>
+
+<para><formalpara><title>How to get started </title></formalpara>
+</para>
+
+<para><formalpara><title>Preparing</title></formalpara>
+</para>
+
+<para>I suggest you take a good look at the provided <computeroutput>example.xml</computeroutput> document. It makes use of all of the elements that are defined by the schema. The XML tags are structured very closely to how the PDF (linked to earlier) describes the specification should be written.</para>
+
+<para>In the example, you will notice some instances of XML elements being prefixed with <computeroutput>x:</computeroutput>. The schema allows you to use HTML in nearly all instances of where you provide information. Unfortunately due to limitations on how XML schemas work, you need to prefix all of the HTML elements with <computeroutput>x:</computeroutput> (or whatever else you used for the namespace).</para>
+
+<para><formalpara><title>Authoring</title></formalpara>
+</para>
+
+<para>You can use this template to start a new specification:</para>
+
+<para><literallayout><computeroutput>&lt;?xml&#32;version=&quot;1.0&quot;&#32;encoding=&quot;UTF-8&quot;?&gt;
+&lt;?xml-stylesheet&#32;href=&quot;styles/specification.xsl&quot;&#32;type=&quot;text/xsl&quot;?&gt;
+&lt;specification&#32;xmlns=&quot;urn:kherge:specification&quot;&#32;xmlns:x=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&#32;&#32;&lt;project&gt;
+&#32;&#32;&#32;&#32;&lt;name&gt;My&#32;Project&lt;/name&gt;
+&#32;&#32;&lt;/project&gt;
+&lt;/specification&gt;
+</computeroutput></literallayout></para>
+
+<para>With the included example specification and the XML schema, you should be able to create a new specification in no time.</para>
+
+<para><formalpara><title>Rendering</title></formalpara>
+</para>
+
+<para>To view your specification, you are expected to use the following directory structure: <literallayout>assets/
+    ...
+schema/
+    ...
+styles/
+    ...
+mySpec.xml
+</literallayout></para>
+
+<para><blockquote>
+<para>Your XML document could be named anything, not just <computeroutput>mySpec.xml</computeroutput>. For the sake of this tutorial, I will be using <computeroutput>mySpec.xml</computeroutput>. </para>
+</blockquote></para>
+
+<para>You would then open <computeroutput>mySpec.xml</computeroutput> in your browser and see a fully rendered HTML page. If you just see a mess of text, it is likely that your browser does not support rendering XML documents using the file system. If this is the case, you will need to make the files accessible through a web server and access the XML document as a web page. If this also does not work, you will need to run your XML document through an XSL processor and save the result as an HTML file in the same directory.</para>
+
+<para><formalpara><title>Printing</title></formalpara>
+</para>
+
+<para>Firefox is the best browser to use if you need to print your specification.</para>
+
+<para>Tests done on Safari and Chrome have shown that the page dimensions are not calculated correctly. As a result, you may see that the table of contents continues down the left side instead taking up the full width of the page. You may also notice that page breaks do not work properly after the title page.</para>
+
+<para><formalpara><title>Tools</title></formalpara>
+</para>
+
+<para><formalpara><title><computeroutput>fix-ids.pl</computeroutput></title></formalpara>
+</para>
+
+<para>As you write your specification, you may need to re-arrange some use cases or requirements. Going back and renumbering everything can become a real pain! To avoid doing this, leave all of the numbers alone and then run <computeroutput>fix-ids.pl</computeroutput>. <literallayout>tools/fix-ids.pl mySpec.xml
+</literallayout></para>
+
+<para><formalpara><title><computeroutput>next-ids.pl</computeroutput></title></formalpara>
+</para>
+
+<para>Like before, you may rearrange use cases or requirements and end up losing track of which number comes next. The <computeroutput>next-ids.pl</computeroutput> tool will display the next available number for use cases and requirements. <literallayout>tools/next-ids.pl mySpec.xml
+</literallayout></para>
+
+<para><formalpara><title><computeroutput>validate.sh</computeroutput></title></formalpara>
+</para>
+
+<para>If you want to ensure that your specification will render correctly, you will want to occassionally validate your XML document and fix any changes that you may encounter. To find problems, run the <computeroutput>validate.sh</computeroutput> tool. <literallayout>tools/validate.sh mySpec.xml
+</literallayout></para>
+
+<para><formalpara><title>License </title></formalpara>
+</para>
+
+<para>This package is released under the MIT license, so use, mangle, and share! </para>
+
+</chapter>

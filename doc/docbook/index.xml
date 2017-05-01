@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <info>
+    <title>ReqUIsite</title>
+    </info>
+    <chapter>
+        <title>Namespace Documentation</title>
+        <xi:include href="d8/dee/namespacecom.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d3/d5f/namespacecom_1_1chaintronics.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d8/d2f/namespacecom_1_1chaintronics_1_1the78mole.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d9/def/namespacecom_1_1chaintronics_1_1the78mole_1_1reqtool.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d8/dfe/namespacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="df/d49/namespaceorg_1_1eclipse_1_1jface_1_1text.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d1/d2f/namespaceorg_1_1eclipse_1_1jface_1_1text_1_1rules.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
+        <xi:include href="mainpage.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="md_pages_XMLFileStructure.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="md_resources_README.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <chapter>
+        <title>Class Documentation</title>
+        <xi:include href="da/d37/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ColorManager.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="db/d57/interfacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1IXMLColorConstants.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="de/d78/classMultiLineRule.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d0/d14/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="de/db0/classRuleBasedPartitionScanner.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="db/d1c/classRuleBasedScanner.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d3/d21/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1TagRule.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dc/d22/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDocumentProvider.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dd/d32/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dd/dfc/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLScanner.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d1/d4d/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLTagScanner.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d8/d1e/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLWhitespaceDetector.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
+    <chapter>
+        <title>File Documentation</title>
+        <xi:include href="d2/d77/ColorManager_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d5/d0e/IXMLColorConstants_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d5/dfb/NonRuleBasedDamagerRepairer_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d7/d94/ReqXMLEditor_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d3/d5e/TagRule_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dc/da0/XMLConfiguration_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d2/d16/XMLDocumentProvider_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d7/d76/XMLDoubleClickStrategy_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dd/dc7/XMLPartitionScanner_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dd/d33/XMLScanner_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="db/d69/XMLTagScanner_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d5/def/XMLWhitespaceDetector_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dc/dc6/mainpage_8md.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="de/dd7/XMLFileStructure_8md.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d0/d1f/bootstrap_8js.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d5/de7/jquery_8js.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d8/d4f/cookie_8js.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="de/d6c/specification_8js.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="da/ddd/README_8md.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
+    <chapter>
+        <title>Directory Documentation</title>
+        <xi:include href="dir_7f53eae7442d09589e0c0b0dda4d00f4.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_c70baf07d000ad5871d28574b958830a.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_d933fba85db283ce70e8e2dbf38d0d71.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_53c0d68273df2c67a49b16a30efedd67.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_89db577aa88594a56b7cb95279b1a768.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_85e70ee13875bae2dadf1c80fca76e53.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_5a7dbde958ef7c41c26309133b88240f.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_e07a3e6191f7e3d4270d739856ae4440.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_3d9ea367f779e4ed9ae7d151f3fcc8d6.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_0fc3f8f3ef96ce2d45d66d6e29832317.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_5212d75a7cafc4ae3f599805864311fc.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_aaa598b24b0974709d79cda4c24ea144.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
+</book>

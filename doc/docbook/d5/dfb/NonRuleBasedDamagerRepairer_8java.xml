@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d5/dfb/NonRuleBasedDamagerRepairer_8java">
+    <title>NonRuleBasedDamagerRepairer.java File Reference</title>
+<para>Include dependency diagram for NonRuleBasedDamagerRepairer.java</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../df/d40/NonRuleBasedDamagerRepairer_8java__incl.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Included by dependency diagram for NonRuleBasedDamagerRepairer.java</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../d4/d28/NonRuleBasedDamagerRepairer_8java__dep__incl.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title> Classes </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer">com::chaintronics::the78mole::reqtool::editors::NonRuleBasedDamagerRepairer</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <simplesect>
+            <title> Namespaces </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d8/dfe/namespacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors">com::chaintronics::the78mole::reqtool::editors</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Detailed Description</title>
+    <para>Definition in file /home/daniel/GIT/requisite/eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/NonRuleBasedDamagerRepairer.java</para>
+    </simplesect>
+</section>

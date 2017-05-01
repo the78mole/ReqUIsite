@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d9/def/namespacecom_1_1chaintronics_1_1the78mole_1_1reqtool">
+<title>com::chaintronics::the78mole::reqtool</title>
+        <simplesect>
+            <title> Namespaces </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d8/dfe/namespacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors">com::chaintronics::the78mole::reqtool::editors</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+</section>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dd/d32/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner">
+<title>com::chaintronics::the78mole::reqtool::editors::XMLPartitionScanner class Reference</title>
+<para>Inheritance diagram for com::chaintronics::the78mole::reqtool::editors::XMLPartitionScanner</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../de/d1e/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for com::chaintronics::the78mole::reqtool::editors::XMLPartitionScanner</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../d9/d11/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String XML_COMMENT</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static final String XML_TAG</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/d32/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner_1aa79748ea92ded3b2497e6f47bebc2123">XMLPartitionScanner</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="dd/d32/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner_1aa79748ea92ded3b2497e6f47bebc2123">
+                <title>com.chaintronics.the78mole.reqtool.editors.XMLPartitionScanner.XMLPartitionScanner ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

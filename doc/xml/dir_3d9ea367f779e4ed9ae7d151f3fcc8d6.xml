@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_3d9ea367f779e4ed9ae7d151f3fcc8d6" kind="dir">
+    <compoundname>eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool</compoundname>
+    <innerdir refid="dir_85e70ee13875bae2dadf1c80fca76e53">eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dd/d32/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner" kind="class" language="Java" prot="public">
+    <compoundname>com::chaintronics::the78mole::reqtool::editors::XMLPartitionScanner</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">RuleBasedPartitionScanner</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="dd/d32/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner_1ab5061d96e170e14e8b6362082283d420" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.chaintronics.the78mole.reqtool.editors.XMLPartitionScanner.XML_COMMENT</definition>
+        <argsstring></argsstring>
+        <name>XML_COMMENT</name>
+        <initializer>= &quot;__xml_comment&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLPartitionScanner.java" line="6" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLPartitionScanner.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d32/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner_1a05ddc0472e93522dbc86424d0c61e65a" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.chaintronics.the78mole.reqtool.editors.XMLPartitionScanner.XML_TAG</definition>
+        <argsstring></argsstring>
+        <name>XML_TAG</name>
+        <initializer>= &quot;__xml_tag&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLPartitionScanner.java" line="7" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLPartitionScanner.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/d32/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner_1aa79748ea92ded3b2497e6f47bebc2123" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.chaintronics.the78mole.reqtool.editors.XMLPartitionScanner.XMLPartitionScanner</definition>
+        <argsstring>()</argsstring>
+        <name>XMLPartitionScanner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLPartitionScanner.java" line="9" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLPartitionScanner.java" bodystart="9" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="84">
+        <label>com.chaintronics.the78mole.reqtool.editors.XMLPartitionScanner</label>
+        <link refid="dd/d32/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner"/>
+        <childnode refid="85" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>RuleBasedPartitionScanner</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="86">
+        <label>com.chaintronics.the78mole.reqtool.editors.XMLPartitionScanner</label>
+        <link refid="dd/d32/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>RuleBasedPartitionScanner</label>
+      </node>
+    </collaborationgraph>
+    <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLPartitionScanner.java" line="5" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLPartitionScanner.java" bodystart="5" bodyend="21"/>
+    <listofallmembers>
+      <member refid="dd/d32/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner_1ab5061d96e170e14e8b6362082283d420" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::XMLPartitionScanner</scope><name>XML_COMMENT</name></member>
+      <member refid="dd/d32/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner_1a05ddc0472e93522dbc86424d0c61e65a" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::XMLPartitionScanner</scope><name>XML_TAG</name></member>
+      <member refid="dd/d32/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner_1aa79748ea92ded3b2497e6f47bebc2123" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::XMLPartitionScanner</scope><name>XMLPartitionScanner</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

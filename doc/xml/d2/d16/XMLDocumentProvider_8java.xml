@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="d2/d16/XMLDocumentProvider_8java" kind="file" language="Java">
+    <compoundname>XMLDocumentProvider.java</compoundname>
+    <innerclass refid="dc/d22/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDocumentProvider" prot="public">com::chaintronics::the78mole::reqtool::editors::XMLDocumentProvider</innerclass>
+    <innernamespace refid="d8/dfe/namespacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors">com::chaintronics::the78mole::reqtool::editors</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">com.chaintronics.the78mole.reqtool.editors;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.eclipse.core.runtime.CoreException;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.eclipse.jface.text.IDocument;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.eclipse.jface.text.IDocumentPartitioner;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.eclipse.jface.text.rules.FastPartitioner;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.eclipse.ui.editors.text.FileDocumentProvider;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="dc/d22/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDocumentProvider" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dc/d22/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDocumentProvider" kindref="compound">XMLDocumentProvider</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>FileDocumentProvider<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>IDocument<sp/>createDocument(Object<sp/>element)<sp/></highlight><highlight class="keywordflow">throws</highlight><highlight class="normal"><sp/>CoreException<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IDocument<sp/>document<sp/>=<sp/>super.createDocument(element);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(document<sp/>!=<sp/>null)<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IDocumentPartitioner<sp/>partitioner<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>FastPartitioner(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="dd/d32/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner" kindref="compound">XMLPartitionScanner</ref>(),</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>String[]<sp/>{<sp/><ref refid="dd/d32/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner" kindref="compound">XMLPartitionScanner</ref>.XML_TAG,<sp/><ref refid="dd/d32/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner" kindref="compound">XMLPartitionScanner</ref>.XML_COMMENT<sp/>});</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>partitioner.connect(document);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>document.setDocumentPartitioner(partitioner);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>document;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLDocumentProvider.java"/>
+  </compounddef>
+</doxygen>

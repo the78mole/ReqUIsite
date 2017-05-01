@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dir_3d9ea367f779e4ed9ae7d151f3fcc8d6">
+    <title>eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool Directory Reference</title>
+<para>Directory dependency diagram for eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool</para>
+<para>
+    <figure>
+        <title>Directory Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../dir_3d9ea367f779e4ed9ae7d151f3fcc8d6_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <simplesect>
+            <title> Directories </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>dir <link linkend="dir_85e70ee13875bae2dadf1c80fca76e53">eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Detailed Description</title>
+    <para>Directory location is /home/daniel/GIT/requisite/eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/</para>
+    </simplesect>
+</section>

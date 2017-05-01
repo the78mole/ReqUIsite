@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_e07a3e6191f7e3d4270d739856ae4440" kind="dir">
+    <compoundname>resources/assets/js</compoundname>
+    <innerdir refid="dir_5a7dbde958ef7c41c26309133b88240f">resources/assets/js/jquery</innerdir>
+    <innerfile refid="d0/d1f/bootstrap_8js">bootstrap.js</innerfile>
+    <innerfile refid="d5/de7/jquery_8js">jquery.js</innerfile>
+    <innerfile refid="de/d6c/specification_8js">specification.js</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="resources/assets/js/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="df/d49/namespaceorg_1_1eclipse_1_1jface_1_1text" kind="namespace" language="Java">
+    <compoundname>org::eclipse::jface::text</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLDoubleClickStrategy.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

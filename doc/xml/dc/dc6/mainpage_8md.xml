@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dc/dc6/mainpage_8md" kind="file" language="Markdown">
+    <compoundname>mainpage.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>ReqUIsite<sp/>Main<sp/>Page<sp/>{#mainpage}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">ReqUIsite<sp/>is<sp/>a<sp/>toolset<sp/>to<sp/>make<sp/>the<sp/>requirements<sp/>the<sp/>heart<sp/>of<sp/>a<sp/>SW,<sp/></highlight></codeline>
+<codeline><highlight class="normal">embedded<sp/>or<sp/>any<sp/>other<sp/>project.<sp/>It<sp/>not<sp/>only<sp/>contains<sp/>the<sp/>input<sp/>frontend</highlight></codeline>
+<codeline><highlight class="normal">to<sp/>enter<sp/>the<sp/>requirements.<sp/>It<sp/>also<sp/>serves<sp/>as<sp/>a<sp/>framework<sp/>to<sp/>trace<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">requirements,<sp/>their<sp/>changes<sp/>and<sp/>to<sp/>include<sp/>the<sp/>tests<sp/>on<sp/>every<sp/>level</highlight></codeline>
+<codeline><highlight class="normal">to<sp/>proove<sp/>the<sp/>requirement<sp/>has<sp/>been<sp/>fulfilled.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Why<sp/>I<sp/>started<sp/>ReqUIsite?</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>all<sp/>the<sp/>projects<sp/>I<sp/>worked<sp/>until<sp/>now,<sp/>one<sp/>or<sp/>more<sp/>pieces<sp/>of<sp/>the<sp/>project<sp/>did</highlight></codeline>
+<codeline><highlight class="normal">not<sp/>run<sp/>well<sp/>or<sp/>at<sp/>least<sp/>very<sp/>inefficiently.<sp/>Many<sp/>of<sp/>these<sp/>projects<sp/>have<sp/>been</highlight></codeline>
+<codeline><highlight class="normal">hard<sp/>at<sp/>the<sp/>edge<sp/>of<sp/>budget<sp/>or<sp/>even<sp/>ran<sp/>over<sp/>budget.<sp/>This<sp/>could<sp/>have<sp/>been</highlight></codeline>
+<codeline><highlight class="normal">completely<sp/>avoided<sp/>by<sp/>a<sp/>good<sp/>requirements<sp/>engineering,<sp/>but<sp/>even<sp/>in<sp/>large</highlight></codeline>
+<codeline><highlight class="normal">companies,<sp/>the<sp/>tooling<sp/>and<sp/>it&apos;s<sp/>user<sp/>friendlyness<sp/>is<sp/>at<sp/>best<sp/>very<sp/>low.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">DOORS<sp/>as<sp/>an<sp/>example<sp/>is<sp/>slow<sp/>in<sp/>starting<sp/>up,<sp/>not<sp/>very<sp/>usable,<sp/>not<sp/>easily<sp/></highlight></codeline>
+<codeline><highlight class="normal">extendable,<sp/>mostly<sp/>manual,<sp/>it&apos;s<sp/>look<sp/>and<sp/>feel<sp/>remebers<sp/>the<sp/>time<sp/>of<sp/>MSDOS<sp/>and</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>integration<sp/>into<sp/>other<sp/>process<sp/>related<sp/>tools<sp/>is<sp/>not<sp/>given<sp/>at<sp/>all.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">These<sp/>circumstances<sp/>lead<sp/>me<sp/>to<sp/>grasp<sp/>the<sp/>nettle<sp/>of<sp/>creating<sp/>a<sp/>framework,<sp/>that</highlight></codeline>
+<codeline><highlight class="normal">is<sp/>useful<sp/>in<sp/>a<sp/>very<sp/>early<sp/>stage<sp/>and<sp/>can<sp/>grow<sp/>to<sp/>support<sp/>all<sp/>the<sp/>needs<sp/>of<sp/>all</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>stakeholders<sp/>of<sp/>a<sp/>project,<sp/>including<sp/>the<sp/>engineers<sp/>needing<sp/>to<sp/>implement</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>stuff<sp/>that<sp/>fulfills<sp/>the<sp/>requirements.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">For<sp/>sure,<sp/>all<sp/>this<sp/>will<sp/>be<sp/>available<sp/>as<sp/>Free<sp/>and<sp/>Open<sp/>Source<sp/>Software<sp/>or<sp/>as</highlight></codeline>
+<codeline><highlight class="normal">Creative<sp/>Commons<sp/>material.<sp/>This<sp/>must<sp/>not<sp/>necessarily<sp/>mean,<sp/>that<sp/>you<sp/>can</highlight></codeline>
+<codeline><highlight class="normal">not<sp/>take<sp/>it<sp/>and<sp/>earn<sp/>money<sp/>with<sp/>it<sp/>by<sp/>extending<sp/>the<sp/>capabilities,<sp/>it<sp/>just</highlight></codeline>
+<codeline><highlight class="normal">means,<sp/>that<sp/>everybody<sp/>can<sp/>take<sp/>it<sp/>to<sp/>make<sp/>his<sp/>or<sp/>her<sp/>own<sp/>use<sp/>of<sp/>it.<sp/>If</highlight></codeline>
+<codeline><highlight class="normal">you<sp/>receive<sp/>specifications<sp/>based<sp/>on<sp/>the<sp/>standard<sp/>in<sp/>this<sp/>project,<sp/>you</highlight></codeline>
+<codeline><highlight class="normal">should<sp/>easily<sp/>be<sp/>able<sp/>to<sp/>use<sp/>it<sp/>by<sp/>applying<sp/>the<sp/>stylesheets<sp/>and<sp/>read,</highlight></codeline>
+<codeline><highlight class="normal">what<sp/>is<sp/>in<sp/>the<sp/>requirements<sp/>and<sp/>how<sp/>the<sp/>project<sp/>is<sp/>tested<sp/>against.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">More<sp/>details<sp/>about<sp/>the<sp/>license<sp/>can<sp/>be<sp/>found<sp/>in<sp/>the<sp/>appropriate<sp/>files<sp/>named</highlight></codeline>
+<codeline><highlight class="normal">LICENSE.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Thanks<sp/>to<sp/>Kevin<sp/>Herrera<sp/>(kherge).<sp/>I<sp/>based<sp/>all<sp/>my<sp/>work<sp/>on<sp/>his<sp/>collection<sp/>of<sp/>schemas,<sp/>examples,<sp/>stylesheets<sp/>and<sp/>tools<sp/>in<sp/>his<sp/>GitHub<sp/>project<sp/>*srs*<sp/>(https://github.com/kherge/srs).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Have<sp/>fun<sp/>using<sp/>it!!!</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Follwing<sp/>some<sp/>more<sp/>details<sp/>on<sp/>the<sp/>project<sp/>itself...:</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>ReqUIsite<sp/>structure</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>heart<sp/>of<sp/>ReqUIsite<sp/>is<sp/>the<sp/>collection<sp/>of<sp/>XML<sp/>schemas<sp/>and<sp/>XSLT<sp/>stylesheets.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>The<sp/>schema<sp/>files</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>XML<sp/>schemas<sp/>can<sp/>be<sp/>used<sp/>bare<sp/>metal<sp/>to<sp/>validate<sp/>the<sp/>bare<sp/>XML<sp/>documents,</highlight></codeline>
+<codeline><highlight class="normal">in<sp/>conjunction<sp/>with<sp/>a<sp/>good<sp/>XML<sp/>editor<sp/>to<sp/>help<sp/>creating<sp/>the<sp/>documents<sp/>more</highlight></codeline>
+<codeline><highlight class="normal">comfortably<sp/>or<sp/>to<sp/>create<sp/>your<sp/>own<sp/>applications<sp/>around<sp/>these<sp/>schemas.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>The<sp/>stylesheets</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>XSLT<sp/>stylesheets<sp/>serve<sp/>different<sp/>purposes.<sp/>At<sp/>first,<sp/>some<sp/>of<sp/>them<sp/>can<sp/></highlight></codeline>
+<codeline><highlight class="normal">generate<sp/>higher<sp/>level<sp/>output<sp/>files<sp/>like<sp/>an<sp/>HTML<sp/>view<sp/>of<sp/>the<sp/>requirements</highlight></codeline>
+<codeline><highlight class="normal">in<sp/>a<sp/>human<sp/>readable<sp/>and<sp/>nice<sp/>looking<sp/>format.<sp/>With<sp/>this<sp/>stylesheets</highlight></codeline>
+<codeline><highlight class="normal">accompanied<sp/>with<sp/>the<sp/>XML<sp/>documents,<sp/>many<sp/>browsers<sp/>can<sp/>direcly<sp/>show<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">contents<sp/>of<sp/>the<sp/>XML<sp/>documents<sp/>nicely.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">On<sp/>the<sp/>other<sp/>side,<sp/>used<sp/>in<sp/>conjunction<sp/>with<sp/>some<sp/>servlet,<sp/>they<sp/>can<sp/>generate</highlight></codeline>
+<codeline><highlight class="normal">a<sp/>web<sp/>editor<sp/>making<sp/>use<sp/>of<sp/>REST<sp/>and<sp/>the<sp/>documents<sp/>as<sp/>a<sp/>database<sp/>for</highlight></codeline>
+<codeline><highlight class="normal">requirements.<sp/>Additionally,<sp/>the<sp/>documents<sp/>can<sp/>then<sp/>be<sp/>moved<sp/>to<sp/>an<sp/>object</highlight></codeline>
+<codeline><highlight class="normal">store<sp/>or<sp/>some<sp/>relational<sp/>database<sp/>for<sp/>higher<sp/>storage<sp/>requirements.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Status<sp/>of<sp/>ReqUIsite</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">ReqUIsite<sp/>is<sp/>currently<sp/>in<sp/>a<sp/>very<sp/>early<sp/>stage<sp/>of<sp/>development.<sp/></highlight></codeline>
+    </programlisting>
+    <location file="pages/mainpage.md"/>
+  </compounddef>
+</doxygen>

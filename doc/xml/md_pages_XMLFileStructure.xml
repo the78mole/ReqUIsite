@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="md_pages_XMLFileStructure" kind="page">
+    <compoundname>md_pages_XMLFileStructure</compoundname>
+    <title>ReqUIsite XML File structure</title>
+    <detaileddescription>
+<para><plantuml caption="XML Overview">
+class &quot;Project Main&quot; as pm
+class &quot;Customer Specification&quot; as cs
+class &quot;Target Specification&quot; as ts
+class &quot;System Specification&quot; as sys
+class &quot;Software Specification&quot; as sws
+class &quot;Hardware Specification&quot; as hws
+
+pm &quot;1&quot; o-- &quot;1&quot; cs : aggregation
+pm &quot;1&quot; o-- &quot;1&quot; ts : aggregation
+cs &lt;|-- ts
+ts &quot;1&quot; o-- &quot;1&quot; sys : ref &gt;
+sys &quot;1&quot; &lt;-- &quot;n&quot; sws : refs &gt;
+sys &quot;1&quot; &lt;-- &quot;n&quot; hws : refs &gt;
+
+</plantuml>
+ </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

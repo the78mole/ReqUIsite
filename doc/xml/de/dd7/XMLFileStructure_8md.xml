@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="de/dd7/XMLFileStructure_8md" kind="file" language="Markdown">
+    <compoundname>XMLFileStructure.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>ReqUIsite<sp/>XML<sp/>File<sp/>structure</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">@startuml<sp/>&quot;XML<sp/>Overview&quot;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">class<sp/>&quot;Project<sp/>Main&quot;<sp/>as<sp/>pm</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>&quot;Customer<sp/>Specification&quot;<sp/>as<sp/>cs</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>&quot;Target<sp/>Specification&quot;<sp/>as<sp/>ts</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>&quot;System<sp/>Specification&quot;<sp/>as<sp/>sys</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>&quot;Software<sp/>Specification&quot;<sp/>as<sp/>sws</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>&quot;Hardware<sp/>Specification&quot;<sp/>as<sp/>hws</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">pm<sp/>&quot;1&quot;<sp/>o--<sp/>&quot;1&quot;<sp/>cs<sp/>:<sp/>aggregation</highlight></codeline>
+<codeline><highlight class="normal">pm<sp/>&quot;1&quot;<sp/>o--<sp/>&quot;1&quot;<sp/>ts<sp/>:<sp/>aggregation</highlight></codeline>
+<codeline><highlight class="normal">cs<sp/>&lt;|--<sp/>ts</highlight></codeline>
+<codeline><highlight class="normal">ts<sp/>&quot;1&quot;<sp/>o--<sp/>&quot;1&quot;<sp/>sys<sp/>:<sp/>ref<sp/>&gt;</highlight></codeline>
+<codeline><highlight class="normal">sys<sp/>&quot;1&quot;<sp/>&lt;--<sp/>&quot;n&quot;<sp/>sws<sp/>:<sp/>refs<sp/>&gt;</highlight></codeline>
+<codeline><highlight class="normal">sys<sp/>&quot;1&quot;<sp/>&lt;--<sp/>&quot;n&quot;<sp/>hws<sp/>:<sp/>refs<sp/>&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">@enduml</highlight></codeline>
+    </programlisting>
+    <location file="pages/XMLFileStructure.md"/>
+  </compounddef>
+</doxygen>

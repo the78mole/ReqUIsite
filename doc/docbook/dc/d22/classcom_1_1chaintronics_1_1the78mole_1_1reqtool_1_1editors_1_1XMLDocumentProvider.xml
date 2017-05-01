@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dc/d22/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDocumentProvider">
+<title>com::chaintronics::the78mole::reqtool::editors::XMLDocumentProvider class Reference</title>
+<para>Inheritance diagram for com::chaintronics::the78mole::reqtool::editors::XMLDocumentProvider</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../dc/d69/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDocumentProvider__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for com::chaintronics::the78mole::reqtool::editors::XMLDocumentProvider</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../d3/d8b/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDocumentProvider__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>IDocument <link linkend="dc/d22/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDocumentProvider_1a7d2690b6595c0c22d70650ff3f66bf05">createDocument</link> (
+Object element)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="dc/d22/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDocumentProvider_1a7d2690b6595c0c22d70650ff3f66bf05">
+                <title>IDocument com.chaintronics.the78mole.reqtool.editors.XMLDocumentProvider.createDocument (Object element)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

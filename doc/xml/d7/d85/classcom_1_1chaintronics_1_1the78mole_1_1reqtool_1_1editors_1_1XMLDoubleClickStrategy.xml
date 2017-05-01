@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy" kind="class" language="Java" prot="public">
+    <compoundname>com::chaintronics::the78mole::reqtool::editors::XMLDoubleClickStrategy</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ITextDoubleClickStrategy</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1acbbdde13a3f4d76daaa4c053fe5c8d68" prot="protected" static="no" mutable="no">
+        <type>ITextViewer</type>
+        <definition>ITextViewer com.chaintronics.the78mole.reqtool.editors.XMLDoubleClickStrategy.fText</definition>
+        <argsstring></argsstring>
+        <name>fText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLDoubleClickStrategy.java" line="6" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLDoubleClickStrategy.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1aafb5075ca8ad6bc4c3f58cef6a4a147e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.chaintronics.the78mole.reqtool.editors.XMLDoubleClickStrategy.doubleClicked</definition>
+        <argsstring>(ITextViewer part)</argsstring>
+        <name>doubleClicked</name>
+        <param>
+          <type>ITextViewer</type>
+          <declname>part</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLDoubleClickStrategy.java" line="9" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLDoubleClickStrategy.java" bodystart="9" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1aaddd88f373e37650766ac6b6db87db2b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.chaintronics.the78mole.reqtool.editors.XMLDoubleClickStrategy.selectComment</definition>
+        <argsstring>(int caretPos)</argsstring>
+        <name>selectComment</name>
+        <param>
+          <type>int</type>
+          <declname>caretPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLDoubleClickStrategy.java" line="21" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLDoubleClickStrategy.java" bodystart="21" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1af29578db7c267c0ce8e3612de04d9fd8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.chaintronics.the78mole.reqtool.editors.XMLDoubleClickStrategy.selectWord</definition>
+        <argsstring>(int caretPos)</argsstring>
+        <name>selectWord</name>
+        <param>
+          <type>int</type>
+          <declname>caretPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLDoubleClickStrategy.java" line="69" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLDoubleClickStrategy.java" bodystart="69" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1a4fee243e72bfcd209406d36b86b53ddd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.chaintronics.the78mole.reqtool.editors.XMLDoubleClickStrategy.selectRange</definition>
+        <argsstring>(int startPos, int stopPos)</argsstring>
+        <name>selectRange</name>
+        <param>
+          <type>int</type>
+          <declname>startPos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stopPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLDoubleClickStrategy.java" line="108" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLDoubleClickStrategy.java" bodystart="108" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="80">
+        <label>com.chaintronics.the78mole.reqtool.editors.XMLDoubleClickStrategy</label>
+        <link refid="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy"/>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>ITextDoubleClickStrategy</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="82">
+        <label>com.chaintronics.the78mole.reqtool.editors.XMLDoubleClickStrategy</label>
+        <link refid="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>ITextDoubleClickStrategy</label>
+      </node>
+    </collaborationgraph>
+    <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLDoubleClickStrategy.java" line="5" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/XMLDoubleClickStrategy.java" bodystart="5" bodyend="113"/>
+    <listofallmembers>
+      <member refid="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1aafb5075ca8ad6bc4c3f58cef6a4a147e" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::XMLDoubleClickStrategy</scope><name>doubleClicked</name></member>
+      <member refid="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1acbbdde13a3f4d76daaa4c053fe5c8d68" prot="protected" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::XMLDoubleClickStrategy</scope><name>fText</name></member>
+      <member refid="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1aaddd88f373e37650766ac6b6db87db2b" prot="protected" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::XMLDoubleClickStrategy</scope><name>selectComment</name></member>
+      <member refid="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1a4fee243e72bfcd209406d36b86b53ddd" prot="private" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::XMLDoubleClickStrategy</scope><name>selectRange</name></member>
+      <member refid="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1af29578db7c267c0ce8e3612de04d9fd8" prot="protected" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::XMLDoubleClickStrategy</scope><name>selectWord</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

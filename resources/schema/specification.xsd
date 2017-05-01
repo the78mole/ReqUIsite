@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema
   elementFormDefault="qualified"
-  targetNamespace="urn:kherge:specification"
+  targetNamespace="urn:the78mole:specification"
   version="1.0"
   xml:lang="en"
-  xmlns="urn:kherge:specification"
-  xmlns:spec="urn:kherge:specification"
+  xmlns="urn:the78mole:specification"
+  xmlns:spec="urn:the78mole:specification"
   xmlns:xhtml="http://www.w3.org/1999/xhtml"
   xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
@@ -22,9 +22,7 @@
         <xs:element name="project" type="project"/>
         <xs:element name="introduction" type="introduction"/>
         <xs:element name="definitions" type="definitions"/>
-        <xs:element name="use-cases" type="use-cases"/>
-        <xs:element name="functional-requirements" type="requirements"/>
-        <xs:element name="nonfunctional-requirements" type="requirements"/>
+        <xs:element name="section" type="section"/>
       </xs:sequence>
     </xs:complexType>
     <xs:key name="GlobalNumber">
@@ -48,6 +46,18 @@
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Shared Types
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+  <xs:complexType name="section">
+  	<xs:sequence maxOccurs="unbounded" minOccurs="0">
+  	  <xs:element name="description" type="block" />
+      <xs:sequence>
+        <xs:choice>
+          <xs:element name="subsection" type="section"/>
+          <xs:element name="requirement" type="requirement"/>
+        </xs:choice>
+  	  </xs:sequence>
+  	</xs:sequence>
+  </xs:complexType>
 
   <xs:complexType name="block">
     <xs:choice maxOccurs="unbounded" minOccurs="0">
@@ -75,9 +85,31 @@
   <xs:complexType name="project">
     <xs:sequence>
       <xs:element name="name" type="xs:string"/>
+      <xs:element name="disciplines" type="disciplines"/>
     </xs:sequence>
   </xs:complexType>
 
+  <xs:complexType name="disciplines">
+    <xs:sequence>
+      <xs:element name="discipline">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="ALL"/>
+            <xs:enumeration value="UNDEFINED"/>
+            <xs:enumeration value="NONE"/>            
+            <xs:enumeration value="management"/>
+            <xs:enumeration value="system"/>
+            <xs:enumeration value="hardware"/>
+            <xs:enumeration value="software"/>
+            <xs:enumeration value="mechanical"/>
+            <xs:enumeration value="quality"/>
+            <xs:enumeration value="safety"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Introduction
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -172,7 +204,7 @@
   </xs:complexType>
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Functional and Nonfunctional Requirements
+    Requirements
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
   <xs:complexType name="requirements">
@@ -191,7 +223,6 @@
 
   <xs:complexType name="requirement">
     <xs:sequence>
-      <xs:element name="number" type="xs:ID"/>
       <xs:element name="name" type="xs:string"/>
       <xs:element name="summary" type="inline"/>
       <xs:element name="rationale" type="inline"/>
@@ -203,7 +234,50 @@
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="changeHistory" type="history"/>
+      <xs:element name="requiredTests">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="test" minOccurs="1" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:attribute name="type" type="testTypes"/>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="useCases" type="use-cases"/>
     </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="is-a" type="reqType" default="functional"/>
+    <xs:attribute name="status" type="reqStat" default="initial"/>
   </xs:complexType>
-
+  
+  <xs:simpleType name="reqType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="functional"/>
+      <xs:enumeration value="quality"/>
+      <xs:enumeration value="ancillary"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="reqStat">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="initial"/>
+      <xs:enumeration value="review"/>
+      <xs:enumeration value="invalid"/>
+      <xs:enumeration value="change"/>
+      <xs:enumeration value="rejected"/>
+      <xs:enumeration value="accepted"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:complexType name="history">
+  	<xs:sequence>
+  		<xs:element name="description" type="block-and-inline"/>
+  	</xs:sequence>
+  	<xs:attribute name="date" type="xs:dateTime"/>
+  	<xs:attribute name="author" type="xs:string"/>
+  </xs:complexType>
+    
 </xs:schema>

@@ -1,0 +1,37 @@
+Req\+U\+Isite is a toolset to make the requirements the heart of a SW, embedded or any other project. It not only contains the input frontend to enter the requirements. It also serves as a framework to trace the requirements, their changes and to include the tests on every level to proove the requirement has been fulfilled.
+
+\subsection*{Why I started Req\+U\+Isite?}
+
+In all the projects I worked until now, one or more pieces of the project did not run well or at least very inefficiently. Many of these projects have been hard at the edge of budget or even ran over budget. This could have been completely avoided by a good requirements engineering, but even in large companies, the tooling and it\textquotesingle{}s user friendlyness is at best very low.
+
+D\+O\+O\+RS as an example is slow in starting up, not very usable, not easily extendable, mostly manual, it\textquotesingle{}s look and feel remebers the time of M\+S\+D\+OS and the integration into other process related tools is not given at all.
+
+These circumstances lead me to grasp the nettle of creating a framework, that is useful in a very early stage and can grow to support all the needs of all the stakeholders of a project, including the engineers needing to implement the stuff that fulfills the requirements.
+
+For sure, all this will be available as Free and Open Source Software or as Creative Commons material. This must not necessarily mean, that you can not take it and earn money with it by extending the capabilities, it just means, that everybody can take it to make his or her own use of it. If you receive specifications based on the standard in this project, you should easily be able to use it by applying the stylesheets and read, what is in the requirements and how the project is tested against.
+
+More details about the license can be found in the appropriate files named L\+I\+C\+E\+N\+SE.
+
+Thanks to Kevin Herrera (kherge). I based all my work on his collection of schemas, examples, stylesheets and tools in his Git\+Hub project {\itshape srs} (\href{https://github.com/kherge/srs}{\tt https\+://github.\+com/kherge/srs}).
+
+Have fun using it!!!
+
+Follwing some more details on the project itself...\+:
+
+\subsection*{Req\+U\+Isite structure}
+
+The heart of Req\+U\+Isite is the collection of X\+ML schemas and X\+S\+LT stylesheets.
+
+\subsubsection*{The schema files}
+
+The X\+ML schemas can be used bare metal to validate the bare X\+ML documents, in conjunction with a good X\+ML editor to help creating the documents more comfortably or to create your own applications around these schemas.
+
+\subsubsection*{The stylesheets}
+
+The X\+S\+LT stylesheets serve different purposes. At first, some of them can generate higher level output files like an H\+T\+ML view of the requirements in a human readable and nice looking format. With this stylesheets accompanied with the X\+ML documents, many browsers can direcly show the contents of the X\+ML documents nicely.
+
+On the other side, used in conjunction with some servlet, they can generate a web editor making use of R\+E\+ST and the documents as a database for requirements. Additionally, the documents can then be moved to an object store or some relational database for higher storage requirements.
+
+\subsection*{Status of Req\+U\+Isite}
+
+Req\+U\+Isite is currently in a very early stage of development. 

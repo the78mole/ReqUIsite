@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="db/d57/interfacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1IXMLColorConstants" kind="interface" language="Java" prot="public">
+    <compoundname>com::chaintronics::the78mole::reqtool::editors::IXMLColorConstants</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="db/d57/interfacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1IXMLColorConstants_1a1790d296d5dddecfcddcd1a38654819d" prot="public" static="no" mutable="no">
+        <type>RGB</type>
+        <definition>RGB com.chaintronics.the78mole.reqtool.editors.IXMLColorConstants.XML_COMMENT</definition>
+        <argsstring></argsstring>
+        <name>XML_COMMENT</name>
+        <initializer>= new RGB(128, 0, 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/IXMLColorConstants.java" line="6" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/IXMLColorConstants.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d57/interfacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1IXMLColorConstants_1ae0b02cc3cc4b8782429a6e607f123ddd" prot="public" static="no" mutable="no">
+        <type>RGB</type>
+        <definition>RGB com.chaintronics.the78mole.reqtool.editors.IXMLColorConstants.PROC_INSTR</definition>
+        <argsstring></argsstring>
+        <name>PROC_INSTR</name>
+        <initializer>= new RGB(128, 128, 128)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/IXMLColorConstants.java" line="7" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/IXMLColorConstants.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d57/interfacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1IXMLColorConstants_1a8bcb06c4f136c91730be7d44dcc3316f" prot="public" static="no" mutable="no">
+        <type>RGB</type>
+        <definition>RGB com.chaintronics.the78mole.reqtool.editors.IXMLColorConstants.STRING</definition>
+        <argsstring></argsstring>
+        <name>STRING</name>
+        <initializer>= new RGB(0, 128, 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/IXMLColorConstants.java" line="8" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/IXMLColorConstants.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d57/interfacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1IXMLColorConstants_1acf2efb0cd2319df9fd4da6522673a0d7" prot="public" static="no" mutable="no">
+        <type>RGB</type>
+        <definition>RGB com.chaintronics.the78mole.reqtool.editors.IXMLColorConstants.DEFAULT</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT</name>
+        <initializer>= new RGB(0, 0, 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/IXMLColorConstants.java" line="9" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/IXMLColorConstants.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d57/interfacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1IXMLColorConstants_1a8cecf5f35af6b3b8bc48cffc49142e93" prot="public" static="no" mutable="no">
+        <type>RGB</type>
+        <definition>RGB com.chaintronics.the78mole.reqtool.editors.IXMLColorConstants.TAG</definition>
+        <argsstring></argsstring>
+        <name>TAG</name>
+        <initializer>= new RGB(0, 0, 128)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/IXMLColorConstants.java" line="10" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/IXMLColorConstants.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="54">
+        <label>com.chaintronics.the78mole.reqtool.editors.IXMLColorConstants</label>
+        <link refid="db/d57/interfacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1IXMLColorConstants"/>
+        <childnode refid="55" relation="usage">
+          <edgelabel>+DEFAULT</edgelabel>
+          <edgelabel>+PROC_INSTR</edgelabel>
+          <edgelabel>+XML_COMMENT</edgelabel>
+          <edgelabel>+TAG</edgelabel>
+          <edgelabel>+STRING</edgelabel>
+        </childnode>
+      </node>
+      <node id="55">
+        <label>RGB</label>
+      </node>
+    </collaborationgraph>
+    <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/IXMLColorConstants.java" line="5" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/IXMLColorConstants.java" bodystart="5" bodyend="11"/>
+    <listofallmembers>
+      <member refid="db/d57/interfacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1IXMLColorConstants_1acf2efb0cd2319df9fd4da6522673a0d7" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::IXMLColorConstants</scope><name>DEFAULT</name></member>
+      <member refid="db/d57/interfacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1IXMLColorConstants_1ae0b02cc3cc4b8782429a6e607f123ddd" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::IXMLColorConstants</scope><name>PROC_INSTR</name></member>
+      <member refid="db/d57/interfacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1IXMLColorConstants_1a8bcb06c4f136c91730be7d44dcc3316f" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::IXMLColorConstants</scope><name>STRING</name></member>
+      <member refid="db/d57/interfacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1IXMLColorConstants_1a8cecf5f35af6b3b8bc48cffc49142e93" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::IXMLColorConstants</scope><name>TAG</name></member>
+      <member refid="db/d57/interfacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1IXMLColorConstants_1a1790d296d5dddecfcddcd1a38654819d" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::IXMLColorConstants</scope><name>XML_COMMENT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

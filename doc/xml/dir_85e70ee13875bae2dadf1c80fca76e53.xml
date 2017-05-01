@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_85e70ee13875bae2dadf1c80fca76e53" kind="dir">
+    <compoundname>eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors</compoundname>
+    <innerfile refid="d2/d77/ColorManager_8java">ColorManager.java</innerfile>
+    <innerfile refid="d5/d0e/IXMLColorConstants_8java">IXMLColorConstants.java</innerfile>
+    <innerfile refid="d5/dfb/NonRuleBasedDamagerRepairer_8java">NonRuleBasedDamagerRepairer.java</innerfile>
+    <innerfile refid="d7/d94/ReqXMLEditor_8java">ReqXMLEditor.java</innerfile>
+    <innerfile refid="d3/d5e/TagRule_8java">TagRule.java</innerfile>
+    <innerfile refid="dc/da0/XMLConfiguration_8java">XMLConfiguration.java</innerfile>
+    <innerfile refid="d2/d16/XMLDocumentProvider_8java">XMLDocumentProvider.java</innerfile>
+    <innerfile refid="d7/d76/XMLDoubleClickStrategy_8java">XMLDoubleClickStrategy.java</innerfile>
+    <innerfile refid="dd/dc7/XMLPartitionScanner_8java">XMLPartitionScanner.java</innerfile>
+    <innerfile refid="dd/d33/XMLScanner_8java">XMLScanner.java</innerfile>
+    <innerfile refid="db/d69/XMLTagScanner_8java">XMLTagScanner.java</innerfile>
+    <innerfile refid="d5/def/XMLWhitespaceDetector_8java">XMLWhitespaceDetector.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/"/>
+  </compounddef>
+</doxygen>

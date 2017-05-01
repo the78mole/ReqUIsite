@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d3/d21/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1TagRule">
+<title>com::chaintronics::the78mole::reqtool::editors::TagRule class Reference</title>
+<para>Inheritance diagram for com::chaintronics::the78mole::reqtool::editors::TagRule</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../db/d0b/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1TagRule__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for com::chaintronics::the78mole::reqtool::editors::TagRule</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../d0/db7/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1TagRule__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d3/d21/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1TagRule_1a0676c599d4e25168dece4f6165753799">TagRule</link> (
+IToken token)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>boolean <link linkend="d3/d21/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1TagRule_1a5eda9ef246d8c0b0d127008d62f13acd">sequenceDetected</link> (
+ICharacterScanner scanner, char[] sequence, boolean eofAllowed)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="d3/d21/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1TagRule_1a0676c599d4e25168dece4f6165753799">
+                <title>com.chaintronics.the78mole.reqtool.editors.TagRule.TagRule (IToken token)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d3/d21/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1TagRule_1a5eda9ef246d8c0b0d127008d62f13acd">
+                <title>boolean com.chaintronics.the78mole.reqtool.editors.TagRule.sequenceDetected (ICharacterScanner scanner, char[] sequence, boolean eofAllowed)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer" kind="class" language="Java" prot="public">
+    <compoundname>com::chaintronics::the78mole::reqtool::editors::NonRuleBasedDamagerRepairer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IPresentationDamager</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPresentationRepairer</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1a6458e8b12d8a20efbd78d3a67dbbdd69" prot="protected" static="no" mutable="no">
+        <type>IDocument</type>
+        <definition>IDocument com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer.fDocument</definition>
+        <argsstring></argsstring>
+        <name>fDocument</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The document this object works on </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/NonRuleBasedDamagerRepairer.java" line="19" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/NonRuleBasedDamagerRepairer.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1aaf7d93ad1383ad55542fe63398191204" prot="protected" static="no" mutable="no">
+        <type>TextAttribute</type>
+        <definition>TextAttribute com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer.fDefaultTextAttribute</definition>
+        <argsstring></argsstring>
+        <name>fDefaultTextAttribute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default text attribute if non is returned as data by the current token </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/NonRuleBasedDamagerRepairer.java" line="21" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/NonRuleBasedDamagerRepairer.java" bodystart="21" bodyend="-1"/>
+        <referencedby refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1ad64ebcce95bd22599ff2bcc34f7cee51" compoundref="d5/dfb/NonRuleBasedDamagerRepairer_8java" startline="42" endline="55">com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer.endOfLineOf</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1acb2650452d412c2367f28fde06d7a0fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer.NonRuleBasedDamagerRepairer</definition>
+        <argsstring>(TextAttribute defaultTextAttribute)</argsstring>
+        <name>NonRuleBasedDamagerRepairer</name>
+        <param>
+          <type>TextAttribute</type>
+          <declname>defaultTextAttribute</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/NonRuleBasedDamagerRepairer.java" line="23" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/NonRuleBasedDamagerRepairer.java" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1ac69c3b0864311d6cd7d5257ac3c9d9fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer.setDocument</definition>
+        <argsstring>(IDocument document)</argsstring>
+        <name>setDocument</name>
+        <param>
+          <type>IDocument</type>
+          <declname>document</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/NonRuleBasedDamagerRepairer.java" line="30" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/NonRuleBasedDamagerRepairer.java" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1a8df47e48742130998926b23d7307cf28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IRegion</type>
+        <definition>IRegion com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer.getDamageRegion</definition>
+        <argsstring>(ITypedRegion partition, DocumentEvent event, boolean documentPartitioningChanged)</argsstring>
+        <name>getDamageRegion</name>
+        <param>
+          <type>ITypedRegion</type>
+          <declname>partition</declname>
+        </param>
+        <param>
+          <type>DocumentEvent</type>
+          <declname>event</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>documentPartitioningChanged</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/NonRuleBasedDamagerRepairer.java" line="58" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/NonRuleBasedDamagerRepairer.java" bodystart="58" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1a66f92d866aefdc4b3e973204707283e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer.createPresentation</definition>
+        <argsstring>(TextPresentation presentation, ITypedRegion region)</argsstring>
+        <name>createPresentation</name>
+        <param>
+          <type>TextPresentation</type>
+          <declname>presentation</declname>
+        </param>
+        <param>
+          <type>ITypedRegion</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/NonRuleBasedDamagerRepairer.java" line="95" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/NonRuleBasedDamagerRepairer.java" bodystart="95" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1ad64ebcce95bd22599ff2bcc34f7cee51" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer.endOfLineOf</definition>
+        <argsstring>(int offset)</argsstring>
+        <name>endOfLineOf</name>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <exceptions> throws BadLocationException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the end offset of the line that contains the specified offset or if the offset is inside a line delimiter, the end offset of the next line.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the offset whose line end offset must be computed </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the line end offset for the given offset </para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>BadLocationException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if offset is invalid in the current document </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/NonRuleBasedDamagerRepairer.java" line="42" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/NonRuleBasedDamagerRepairer.java" bodystart="42" bodyend="55"/>
+        <references refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1a415c83ab6ed22f7209097cce40fceffd" compoundref="d5/dfb/NonRuleBasedDamagerRepairer_8java" startline="111" endline="124">com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer.addRange</references>
+        <references refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1aaf7d93ad1383ad55542fe63398191204" compoundref="d5/dfb/NonRuleBasedDamagerRepairer_8java" startline="21">com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer.fDefaultTextAttribute</references>
+      </memberdef>
+      <memberdef kind="function" id="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1a415c83ab6ed22f7209097cce40fceffd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer.addRange</definition>
+        <argsstring>(TextPresentation presentation, int offset, int length, TextAttribute attr)</argsstring>
+        <name>addRange</name>
+        <param>
+          <type>TextPresentation</type>
+          <declname>presentation</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>TextAttribute</type>
+          <declname>attr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds style information to the given text presentation.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>presentation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the text presentation to be extended </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the offset of the range to be styled </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the length of the range to be styled </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>attr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the attribute describing the style of the range to be styled </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/NonRuleBasedDamagerRepairer.java" line="111" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/NonRuleBasedDamagerRepairer.java" bodystart="111" bodyend="124"/>
+        <referencedby refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1ad64ebcce95bd22599ff2bcc34f7cee51" compoundref="d5/dfb/NonRuleBasedDamagerRepairer_8java" startline="42" endline="55">com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer.endOfLineOf</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="56">
+        <label>com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer</label>
+        <link refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer"/>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>IPresentationRepairer</label>
+      </node>
+      <node id="57">
+        <label>IPresentationDamager</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="59">
+        <label>com.chaintronics.the78mole.reqtool.editors.NonRuleBasedDamagerRepairer</label>
+        <link refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer"/>
+        <childnode refid="60" relation="public-inheritance">
+        </childnode>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+        <childnode refid="62" relation="usage">
+          <edgelabel>#fDefaultTextAttribute</edgelabel>
+        </childnode>
+        <childnode refid="63" relation="usage">
+          <edgelabel>#fDocument</edgelabel>
+        </childnode>
+      </node>
+      <node id="61">
+        <label>IPresentationRepairer</label>
+      </node>
+      <node id="60">
+        <label>IPresentationDamager</label>
+      </node>
+      <node id="62">
+        <label>TextAttribute</label>
+      </node>
+      <node id="63">
+        <label>IDocument</label>
+      </node>
+    </collaborationgraph>
+    <location file="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/NonRuleBasedDamagerRepairer.java" line="16" column="1" bodyfile="eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors/NonRuleBasedDamagerRepairer.java" bodystart="16" bodyend="125"/>
+    <listofallmembers>
+      <member refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1a415c83ab6ed22f7209097cce40fceffd" prot="protected" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::NonRuleBasedDamagerRepairer</scope><name>addRange</name></member>
+      <member refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1a66f92d866aefdc4b3e973204707283e3" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::NonRuleBasedDamagerRepairer</scope><name>createPresentation</name></member>
+      <member refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1ad64ebcce95bd22599ff2bcc34f7cee51" prot="protected" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::NonRuleBasedDamagerRepairer</scope><name>endOfLineOf</name></member>
+      <member refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1aaf7d93ad1383ad55542fe63398191204" prot="protected" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::NonRuleBasedDamagerRepairer</scope><name>fDefaultTextAttribute</name></member>
+      <member refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1a6458e8b12d8a20efbd78d3a67dbbdd69" prot="protected" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::NonRuleBasedDamagerRepairer</scope><name>fDocument</name></member>
+      <member refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1a8df47e48742130998926b23d7307cf28" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::NonRuleBasedDamagerRepairer</scope><name>getDamageRegion</name></member>
+      <member refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1acb2650452d412c2367f28fde06d7a0fc" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::NonRuleBasedDamagerRepairer</scope><name>NonRuleBasedDamagerRepairer</name></member>
+      <member refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1ac69c3b0864311d6cd7d5257ac3c9d9fd" prot="public" virt="non-virtual"><scope>com::chaintronics::the78mole::reqtool::editors::NonRuleBasedDamagerRepairer</scope><name>setDocument</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

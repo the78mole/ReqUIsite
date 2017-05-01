@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="d8/d4f/cookie_8js" kind="file" language="Javascript">
+    <compoundname>cookie.js</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="d8/d4f/cookie_8js_1abf075bdbe59fd2c3336ed052c9c72b31" prot="public" static="no" mutable="no">
+        <type>function</type>
+        <definition>function factory</definition>
+        <argsstring></argsstring>
+        <name>factory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>jQuery Cookie Plugin v1.4.1 <ulink url="https://github.com/carhartl/jquery-cookie">https://github.com/carhartl/jquery-cookie</ulink></para><para>Copyright 2013 Klaus Hartl Released under the MIT license </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="resources/assets/js/jquery/cookie.js" line="8" column="1" bodyfile="resources/assets/js/jquery/cookie.js" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="8"><highlight class="normal">(</highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>(factory)<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(typeof<sp/>define<sp/>===<sp/></highlight><highlight class="stringliteral">&apos;function&apos;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>define.amd)<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>AMD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>define([</highlight><highlight class="stringliteral">&apos;jquery&apos;</highlight><highlight class="normal">],<sp/>factory);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(typeof<sp/>exports<sp/>===<sp/></highlight><highlight class="stringliteral">&apos;object&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>CommonJS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>factory(require(</highlight><highlight class="stringliteral">&apos;jquery&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Browser<sp/>globals</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>factory(jQuery);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}(</highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>($)<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>pluses<sp/>=<sp/>/\+/g;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>encode(s)<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>config.raw<sp/>?<sp/>s<sp/>:<sp/>encodeURIComponent(s);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>decode(s)<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>config.raw<sp/>?<sp/>s<sp/>:<sp/>decodeURIComponent(s);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>stringifyCookieValue(value)<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>encode(config.json<sp/>?<sp/>JSON.stringify(value)<sp/>:<sp/>String(value));</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>parseCookieValue(s)<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(s.indexOf(</highlight><highlight class="charliteral">&apos;&quot;&apos;</highlight><highlight class="normal">)<sp/>===<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>a<sp/>quoted<sp/>cookie<sp/>as<sp/>according<sp/>to<sp/>RFC2068,<sp/>unescape...</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s<sp/>=<sp/>s.slice(1,<sp/>-1).replace(/\\</highlight><highlight class="stringliteral">&quot;/g,<sp/>&apos;&quot;</highlight><highlight class="stringliteral">&apos;).replace(/\\\\/g,<sp/>&apos;</highlight><highlight class="normal">\\</highlight><highlight class="stringliteral">&apos;);</highlight></codeline>
+<codeline lineno="39"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="41"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>try<sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Replace<sp/>server-side<sp/>written<sp/>pluses<sp/>with<sp/>spaces.</highlight></codeline>
+<codeline lineno="43"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>If<sp/>we<sp/>can&apos;</highlight><highlight class="normal">t<sp/>decode<sp/>the<sp/>cookie,<sp/>ignore<sp/>it,<sp/>it</highlight><highlight class="stringliteral">&apos;s<sp/>unusable.</highlight></codeline>
+<codeline lineno="44"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>If<sp/>we<sp/>can&apos;</highlight><highlight class="normal">t<sp/>parse<sp/>the<sp/>cookie,<sp/>ignore<sp/>it,<sp/>it</highlight><highlight class="stringliteral">&apos;s<sp/>unusable.</highlight></codeline>
+<codeline lineno="45"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s<sp/>=<sp/>decodeURIComponent(s.replace(pluses,<sp/>&apos;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&apos;));</highlight></codeline>
+<codeline lineno="46"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>config.json<sp/>?<sp/>JSON.parse(s)<sp/>:<sp/>s;</highlight></codeline>
+<codeline lineno="47"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>catch(e)<sp/>{}</highlight></codeline>
+<codeline lineno="48"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="50"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>function<sp/>read(s,<sp/>converter)<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>value<sp/>=<sp/>config.raw<sp/>?<sp/>s<sp/>:<sp/>parseCookieValue(s);</highlight></codeline>
+<codeline lineno="52"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>$.isFunction(converter)<sp/>?<sp/>converter(value)<sp/>:<sp/>value;</highlight></codeline>
+<codeline lineno="53"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="55"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>var<sp/>config<sp/>=<sp/>$.cookie<sp/>=<sp/>function<sp/>(key,<sp/>value,<sp/>options)<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="57"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Write</highlight></codeline>
+<codeline lineno="58"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="59"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(value<sp/>!==<sp/>undefined<sp/>&amp;&amp;<sp/>!$.isFunction(value))<sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>options<sp/>=<sp/>$.extend({},<sp/>config.defaults,<sp/>options);</highlight></codeline>
+<codeline lineno="61"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="62"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(typeof<sp/>options.expires<sp/>===<sp/>&apos;</highlight><highlight class="normal">number</highlight><highlight class="stringliteral">&apos;)<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>days<sp/>=<sp/>options.expires,<sp/>t<sp/>=<sp/>options.expires<sp/>=<sp/>new<sp/>Date();</highlight></codeline>
+<codeline lineno="64"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.setTime(+t<sp/>+<sp/>days<sp/>*<sp/>864e+5);</highlight></codeline>
+<codeline lineno="65"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="67"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>(document.cookie<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="68"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>encode(key),<sp/>&apos;</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&apos;,<sp/>stringifyCookieValue(value),</highlight></codeline>
+<codeline lineno="69"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>options.expires<sp/>?<sp/>&apos;</highlight><highlight class="normal">;<sp/>expires=</highlight><highlight class="stringliteral">&apos;<sp/>+<sp/>options.expires.toUTCString()<sp/>:<sp/>&apos;</highlight><highlight class="stringliteral">&apos;,<sp/>//<sp/>use<sp/>expires<sp/>attribute,<sp/>max-age<sp/>is<sp/>not<sp/>supported<sp/>by<sp/>IE</highlight></codeline>
+<codeline lineno="70"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>options.path<sp/><sp/><sp/><sp/>?<sp/>&apos;</highlight><highlight class="normal">;<sp/>path=</highlight><highlight class="stringliteral">&apos;<sp/>+<sp/>options.path<sp/>:<sp/>&apos;</highlight><highlight class="stringliteral">&apos;,</highlight></codeline>
+<codeline lineno="71"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>options.domain<sp/><sp/>?<sp/>&apos;</highlight><highlight class="normal">;<sp/>domain=</highlight><highlight class="stringliteral">&apos;<sp/>+<sp/>options.domain<sp/>:<sp/>&apos;</highlight><highlight class="stringliteral">&apos;,</highlight></codeline>
+<codeline lineno="72"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>options.secure<sp/><sp/>?<sp/>&apos;</highlight><highlight class="normal">;<sp/>secure</highlight><highlight class="stringliteral">&apos;<sp/>:<sp/>&apos;</highlight><highlight class="stringliteral">&apos;</highlight></codeline>
+<codeline lineno="73"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>].join(&apos;</highlight><highlight class="stringliteral">&apos;));</highlight></codeline>
+<codeline lineno="74"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="76"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Read</highlight></codeline>
+<codeline lineno="77"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="78"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>result<sp/>=<sp/>key<sp/>?<sp/>undefined<sp/>:<sp/>{};</highlight></codeline>
+<codeline lineno="79"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="80"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>To<sp/>prevent<sp/>the<sp/>for<sp/>loop<sp/>in<sp/>the<sp/>first<sp/>place<sp/>assign<sp/>an<sp/>empty<sp/>array</highlight></codeline>
+<codeline lineno="81"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>in<sp/>case<sp/>there<sp/>are<sp/>no<sp/>cookies<sp/>at<sp/>all.<sp/>Also<sp/>prevents<sp/>odd<sp/>result<sp/>when</highlight></codeline>
+<codeline lineno="82"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>calling<sp/>$.cookie().</highlight></codeline>
+<codeline lineno="83"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>cookies<sp/>=<sp/>document.cookie<sp/>?<sp/>document.cookie.split(&apos;</highlight><highlight class="normal">;<sp/></highlight><highlight class="stringliteral">&apos;)<sp/>:<sp/>[];</highlight></codeline>
+<codeline lineno="84"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="85"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for<sp/>(var<sp/>i<sp/>=<sp/>0,<sp/>l<sp/>=<sp/>cookies.length;<sp/>i<sp/>&lt;<sp/>l;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>parts<sp/>=<sp/>cookies[i].split(&apos;</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&apos;);</highlight></codeline>
+<codeline lineno="87"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>name<sp/>=<sp/>decode(parts.shift());</highlight></codeline>
+<codeline lineno="88"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>cookie<sp/>=<sp/>parts.join(&apos;</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&apos;);</highlight></codeline>
+<codeline lineno="89"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="90"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(key<sp/>&amp;&amp;<sp/>key<sp/>===<sp/>name)<sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>If<sp/>second<sp/>argument<sp/>(value)<sp/>is<sp/>a<sp/>function<sp/>it&apos;</highlight><highlight class="normal">s<sp/>a<sp/>converter...</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result<sp/>=<sp/>read(cookie,<sp/>value);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Prevent<sp/>storing<sp/>a<sp/>cookie<sp/>that<sp/>we<sp/>couldn&apos;t<sp/>decode.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!key<sp/>&amp;&amp;<sp/>(cookie<sp/>=<sp/>read(cookie))<sp/>!==<sp/>undefined)<sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result[name]<sp/>=<sp/>cookie;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>config.defaults<sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>$.removeCookie<sp/>=<sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>(key,<sp/>options)<sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($.cookie(key)<sp/>===<sp/>undefined)<sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Must<sp/>not<sp/>alter<sp/>options,<sp/>thus<sp/>extending<sp/>a<sp/>fresh<sp/>object...</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$.cookie(key,<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">,<sp/>$.extend({},<sp/>options,<sp/>{<sp/>expires:<sp/>-1<sp/>}));</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!$.cookie(key);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal">}));</highlight></codeline>
+    </programlisting>
+    <location file="resources/assets/js/jquery/cookie.js"/>
+  </compounddef>
+</doxygen>

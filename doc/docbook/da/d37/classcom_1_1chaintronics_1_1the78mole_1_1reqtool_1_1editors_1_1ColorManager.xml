@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="da/d37/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ColorManager">
+<title>com::chaintronics::the78mole::reqtool::editors::ColorManager class Reference</title>
+<para>Inheritance diagram for com::chaintronics::the78mole::reqtool::editors::ColorManager</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../d3/d0f/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ColorManager__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for com::chaintronics::the78mole::reqtool::editors::ColorManager</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../d3/d4f/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ColorManager__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Map fColorTable</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="da/d37/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ColorManager_1ae18275fcad50628bc88fb640c8290bbd">dispose</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Color <link linkend="da/d37/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ColorManager_1aff14b437899532ee6cd35caa024fffa5">getColor</link> (
+RGB rgb)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="da/d37/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ColorManager_1ae18275fcad50628bc88fb640c8290bbd">
+                <title>void com.chaintronics.the78mole.reqtool.editors.ColorManager.dispose ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="da/d37/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ColorManager_1aff14b437899532ee6cd35caa024fffa5">
+                <title>Color com.chaintronics.the78mole.reqtool.editors.ColorManager.getColor (RGB rgb)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

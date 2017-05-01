@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="da/d37/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ColorManager" kind="class"><name>com::chaintronics::the78mole::reqtool::editors::ColorManager</name>
+    <member refid="da/d37/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ColorManager_1a1aafaee0cc2fb1ab453f342d618f50a7" kind="variable"><name>fColorTable</name></member>
+    <member refid="da/d37/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ColorManager_1ae18275fcad50628bc88fb640c8290bbd" kind="function"><name>dispose</name></member>
+    <member refid="da/d37/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ColorManager_1aff14b437899532ee6cd35caa024fffa5" kind="function"><name>getColor</name></member>
+  </compound>
+  <compound refid="db/d57/interfacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1IXMLColorConstants" kind="interface"><name>com::chaintronics::the78mole::reqtool::editors::IXMLColorConstants</name>
+    <member refid="db/d57/interfacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1IXMLColorConstants_1a1790d296d5dddecfcddcd1a38654819d" kind="variable"><name>XML_COMMENT</name></member>
+    <member refid="db/d57/interfacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1IXMLColorConstants_1ae0b02cc3cc4b8782429a6e607f123ddd" kind="variable"><name>PROC_INSTR</name></member>
+    <member refid="db/d57/interfacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1IXMLColorConstants_1a8bcb06c4f136c91730be7d44dcc3316f" kind="variable"><name>STRING</name></member>
+    <member refid="db/d57/interfacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1IXMLColorConstants_1acf2efb0cd2319df9fd4da6522673a0d7" kind="variable"><name>DEFAULT</name></member>
+    <member refid="db/d57/interfacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1IXMLColorConstants_1a8cecf5f35af6b3b8bc48cffc49142e93" kind="variable"><name>TAG</name></member>
+  </compound>
+  <compound refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer" kind="class"><name>com::chaintronics::the78mole::reqtool::editors::NonRuleBasedDamagerRepairer</name>
+    <member refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1a6458e8b12d8a20efbd78d3a67dbbdd69" kind="variable"><name>fDocument</name></member>
+    <member refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1aaf7d93ad1383ad55542fe63398191204" kind="variable"><name>fDefaultTextAttribute</name></member>
+    <member refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1acb2650452d412c2367f28fde06d7a0fc" kind="function"><name>NonRuleBasedDamagerRepairer</name></member>
+    <member refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1ac69c3b0864311d6cd7d5257ac3c9d9fd" kind="function"><name>setDocument</name></member>
+    <member refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1a8df47e48742130998926b23d7307cf28" kind="function"><name>getDamageRegion</name></member>
+    <member refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1a66f92d866aefdc4b3e973204707283e3" kind="function"><name>createPresentation</name></member>
+    <member refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1ad64ebcce95bd22599ff2bcc34f7cee51" kind="function"><name>endOfLineOf</name></member>
+    <member refid="db/d76/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1NonRuleBasedDamagerRepairer_1a415c83ab6ed22f7209097cce40fceffd" kind="function"><name>addRange</name></member>
+  </compound>
+  <compound refid="d0/d14/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor" kind="class"><name>com::chaintronics::the78mole::reqtool::editors::ReqXMLEditor</name>
+    <member refid="d0/d14/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor_1ae737d14587219b8bb6e7fd68791f47d0" kind="variable"><name>colorManager</name></member>
+    <member refid="d0/d14/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor_1a05845bcfedc7b6f447dcaa45e97159ed" kind="function"><name>ReqXMLEditor</name></member>
+    <member refid="d0/d14/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1ReqXMLEditor_1a9f2b2cb31534ba6febeb5139e9e1a3b2" kind="function"><name>dispose</name></member>
+  </compound>
+  <compound refid="d3/d21/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1TagRule" kind="class"><name>com::chaintronics::the78mole::reqtool::editors::TagRule</name>
+    <member refid="d3/d21/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1TagRule_1a0676c599d4e25168dece4f6165753799" kind="function"><name>TagRule</name></member>
+    <member refid="d3/d21/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1TagRule_1a5eda9ef246d8c0b0d127008d62f13acd" kind="function"><name>sequenceDetected</name></member>
+  </compound>
+  <compound refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration" kind="class"><name>com::chaintronics::the78mole::reqtool::editors::XMLConfiguration</name>
+    <member refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a8795fa32657c453ca4ae807ab5b4bae8" kind="variable"><name>doubleClickStrategy</name></member>
+    <member refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1ab46f6a82189c10458d093991f7dcf738" kind="variable"><name>tagScanner</name></member>
+    <member refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1affb7e4a9693ea46a9fe30e39ff1a3754" kind="variable"><name>scanner</name></member>
+    <member refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a8cf15603d4b6c8a6305cbd1dce311d7c" kind="variable"><name>colorManager</name></member>
+    <member refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a6e10884d928f1316ffd7db44afa2dd70" kind="function"><name>XMLConfiguration</name></member>
+    <member refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1aee9ffb7058159e5f5fe07a934cfd9672" kind="function"><name>getConfiguredContentTypes</name></member>
+    <member refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a9eae03526b6ed28614607a2dda80c0f7" kind="function"><name>getDoubleClickStrategy</name></member>
+    <member refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a551b2edc0bc078fbb4e769f163c1105e" kind="function"><name>getPresentationReconciler</name></member>
+    <member refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1a800ad014c1970bcb3909223a1bb40722" kind="function"><name>getXMLScanner</name></member>
+    <member refid="d2/dd3/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLConfiguration_1aa67eae3ac47d202431882ea8885463ac" kind="function"><name>getXMLTagScanner</name></member>
+  </compound>
+  <compound refid="dc/d22/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDocumentProvider" kind="class"><name>com::chaintronics::the78mole::reqtool::editors::XMLDocumentProvider</name>
+    <member refid="dc/d22/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDocumentProvider_1a7d2690b6595c0c22d70650ff3f66bf05" kind="function"><name>createDocument</name></member>
+  </compound>
+  <compound refid="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy" kind="class"><name>com::chaintronics::the78mole::reqtool::editors::XMLDoubleClickStrategy</name>
+    <member refid="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1acbbdde13a3f4d76daaa4c053fe5c8d68" kind="variable"><name>fText</name></member>
+    <member refid="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1aafb5075ca8ad6bc4c3f58cef6a4a147e" kind="function"><name>doubleClicked</name></member>
+    <member refid="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1aaddd88f373e37650766ac6b6db87db2b" kind="function"><name>selectComment</name></member>
+    <member refid="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1af29578db7c267c0ce8e3612de04d9fd8" kind="function"><name>selectWord</name></member>
+    <member refid="d7/d85/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLDoubleClickStrategy_1a4fee243e72bfcd209406d36b86b53ddd" kind="function"><name>selectRange</name></member>
+  </compound>
+  <compound refid="dd/d32/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner" kind="class"><name>com::chaintronics::the78mole::reqtool::editors::XMLPartitionScanner</name>
+    <member refid="dd/d32/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner_1ab5061d96e170e14e8b6362082283d420" kind="variable"><name>XML_COMMENT</name></member>
+    <member refid="dd/d32/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner_1a05ddc0472e93522dbc86424d0c61e65a" kind="variable"><name>XML_TAG</name></member>
+    <member refid="dd/d32/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLPartitionScanner_1aa79748ea92ded3b2497e6f47bebc2123" kind="function"><name>XMLPartitionScanner</name></member>
+  </compound>
+  <compound refid="dd/dfc/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLScanner" kind="class"><name>com::chaintronics::the78mole::reqtool::editors::XMLScanner</name>
+    <member refid="dd/dfc/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLScanner_1a6b5c375b032530c84fa9912a9134280c" kind="function"><name>XMLScanner</name></member>
+  </compound>
+  <compound refid="d1/d4d/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLTagScanner" kind="class"><name>com::chaintronics::the78mole::reqtool::editors::XMLTagScanner</name>
+    <member refid="d1/d4d/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLTagScanner_1ad3009ebeb0f6f92d536a0dcceb3d66a5" kind="function"><name>XMLTagScanner</name></member>
+  </compound>
+  <compound refid="d8/d1e/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLWhitespaceDetector" kind="class"><name>com::chaintronics::the78mole::reqtool::editors::XMLWhitespaceDetector</name>
+    <member refid="d8/d1e/classcom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors_1_1XMLWhitespaceDetector_1abe9d98842ad54c5bf37b251285a250dc" kind="function"><name>isWhitespace</name></member>
+  </compound>
+  <compound refid="d8/dee/namespacecom" kind="namespace"><name>com</name>
+  </compound>
+  <compound refid="d3/d5f/namespacecom_1_1chaintronics" kind="namespace"><name>com::chaintronics</name>
+  </compound>
+  <compound refid="d8/d2f/namespacecom_1_1chaintronics_1_1the78mole" kind="namespace"><name>com::chaintronics::the78mole</name>
+  </compound>
+  <compound refid="d9/def/namespacecom_1_1chaintronics_1_1the78mole_1_1reqtool" kind="namespace"><name>com::chaintronics::the78mole::reqtool</name>
+  </compound>
+  <compound refid="d8/dfe/namespacecom_1_1chaintronics_1_1the78mole_1_1reqtool_1_1editors" kind="namespace"><name>com::chaintronics::the78mole::reqtool::editors</name>
+  </compound>
+  <compound refid="df/d49/namespaceorg_1_1eclipse_1_1jface_1_1text" kind="namespace"><name>org::eclipse::jface::text</name>
+  </compound>
+  <compound refid="d1/d2f/namespaceorg_1_1eclipse_1_1jface_1_1text_1_1rules" kind="namespace"><name>org::eclipse::jface::text::rules</name>
+  </compound>
+  <compound refid="d2/d77/ColorManager_8java" kind="file"><name>ColorManager.java</name>
+  </compound>
+  <compound refid="d5/d0e/IXMLColorConstants_8java" kind="file"><name>IXMLColorConstants.java</name>
+  </compound>
+  <compound refid="d5/dfb/NonRuleBasedDamagerRepairer_8java" kind="file"><name>NonRuleBasedDamagerRepairer.java</name>
+  </compound>
+  <compound refid="d7/d94/ReqXMLEditor_8java" kind="file"><name>ReqXMLEditor.java</name>
+  </compound>
+  <compound refid="d3/d5e/TagRule_8java" kind="file"><name>TagRule.java</name>
+  </compound>
+  <compound refid="dc/da0/XMLConfiguration_8java" kind="file"><name>XMLConfiguration.java</name>
+  </compound>
+  <compound refid="d2/d16/XMLDocumentProvider_8java" kind="file"><name>XMLDocumentProvider.java</name>
+  </compound>
+  <compound refid="d7/d76/XMLDoubleClickStrategy_8java" kind="file"><name>XMLDoubleClickStrategy.java</name>
+  </compound>
+  <compound refid="dd/dc7/XMLPartitionScanner_8java" kind="file"><name>XMLPartitionScanner.java</name>
+  </compound>
+  <compound refid="dd/d33/XMLScanner_8java" kind="file"><name>XMLScanner.java</name>
+  </compound>
+  <compound refid="db/d69/XMLTagScanner_8java" kind="file"><name>XMLTagScanner.java</name>
+  </compound>
+  <compound refid="d5/def/XMLWhitespaceDetector_8java" kind="file"><name>XMLWhitespaceDetector.java</name>
+  </compound>
+  <compound refid="dc/dc6/mainpage_8md" kind="file"><name>mainpage.md</name>
+  </compound>
+  <compound refid="de/dd7/XMLFileStructure_8md" kind="file"><name>XMLFileStructure.md</name>
+  </compound>
+  <compound refid="d0/d1f/bootstrap_8js" kind="file"><name>bootstrap.js</name>
+    <member refid="d0/d1f/bootstrap_8js_1a614229fff4211edebc3c193d1e7763ec" kind="variable"><name>version</name></member>
+    <member refid="d0/d1f/bootstrap_8js_1a2eb5ccc0cd870ff2cc5ce9b8d53cec48" kind="variable"><name>emulateTransitionEnd</name></member>
+    <member refid="d0/d1f/bootstrap_8js_1a5a23b6797090169c0f80e3372ca76a4d" kind="variable"><name>dismiss</name></member>
+    <member refid="d0/d1f/bootstrap_8js_1a261c5f999cc82b4ce70e4914330a1ef6" kind="variable"><name>Button</name></member>
+    <member refid="d0/d1f/bootstrap_8js_1a423054031c78e782a9ea7433185ebafe" kind="variable"><name>Carousel</name></member>
+    <member refid="d0/d1f/bootstrap_8js_1a702a68ef70b72eabdbdce3fc9ad195d4" kind="variable"><name>Collapse</name></member>
+    <member refid="d0/d1f/bootstrap_8js_1aba65c57a7d9ee9d45d314e2bba7dd072" kind="variable"><name>backdrop</name></member>
+    <member refid="d0/d1f/bootstrap_8js_1ae7e92ba98a0a00bcf27095cd53bb66c8" kind="function"><name>if</name></member>
+    <member refid="d0/d1f/bootstrap_8js_1a1f869ec6b1fa9940961fb14a72d20473" kind="function"><name>transitionEnd</name></member>
+  </compound>
+  <compound refid="d5/de7/jquery_8js" kind="file"><name>jquery.js</name>
+    <member refid="d5/de7/jquery_8js_1a57efe929cc6b44042891d05e15cec785" kind="variable"><name>global</name></member>
+    <member refid="d5/de7/jquery_8js_1abf075bdbe59fd2c3336ed052c9c72b31" kind="variable"><name>factory</name></member>
+  </compound>
+  <compound refid="d8/d4f/cookie_8js" kind="file"><name>cookie.js</name>
+    <member refid="d8/d4f/cookie_8js_1abf075bdbe59fd2c3336ed052c9c72b31" kind="variable"><name>factory</name></member>
+  </compound>
+  <compound refid="de/d6c/specification_8js" kind="file"><name>specification.js</name>
+    <member refid="de/d6c/specification_8js_1ae2475e10618961c050dcba04e8c42331" kind="variable"><name>strict</name></member>
+    <member refid="de/d6c/specification_8js_1ab2b82b5d969cd4c32f2289c58c39c18a" kind="function"><name>tooltip</name></member>
+    <member refid="de/d6c/specification_8js_1a227d89d11654472bab7393a14071651a" kind="function"><name>setTocNumbers</name></member>
+  </compound>
+  <compound refid="da/ddd/README_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="md_pages_XMLFileStructure" kind="page"><name>md_pages_XMLFileStructure</name>
+  </compound>
+  <compound refid="md_resources_README" kind="page"><name>md_resources_README</name>
+  </compound>
+  <compound refid="dir_7f53eae7442d09589e0c0b0dda4d00f4" kind="dir"><name>resources/assets</name>
+  </compound>
+  <compound refid="dir_c70baf07d000ad5871d28574b958830a" kind="dir"><name>eclipse/com.chaintronics.the78mole/src/com/chaintronics</name>
+  </compound>
+  <compound refid="dir_d933fba85db283ce70e8e2dbf38d0d71" kind="dir"><name>eclipse/com.chaintronics.the78mole/src/com</name>
+  </compound>
+  <compound refid="dir_53c0d68273df2c67a49b16a30efedd67" kind="dir"><name>eclipse/com.chaintronics.the78mole</name>
+  </compound>
+  <compound refid="dir_89db577aa88594a56b7cb95279b1a768" kind="dir"><name>eclipse</name>
+  </compound>
+  <compound refid="dir_85e70ee13875bae2dadf1c80fca76e53" kind="dir"><name>eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool/editors</name>
+  </compound>
+  <compound refid="dir_5a7dbde958ef7c41c26309133b88240f" kind="dir"><name>resources/assets/js/jquery</name>
+  </compound>
+  <compound refid="dir_e07a3e6191f7e3d4270d739856ae4440" kind="dir"><name>resources/assets/js</name>
+  </compound>
+  <compound refid="dir_3d9ea367f779e4ed9ae7d151f3fcc8d6" kind="dir"><name>eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole/reqtool</name>
+  </compound>
+  <compound refid="dir_0fc3f8f3ef96ce2d45d66d6e29832317" kind="dir"><name>resources</name>
+  </compound>
+  <compound refid="dir_5212d75a7cafc4ae3f599805864311fc" kind="dir"><name>eclipse/com.chaintronics.the78mole/src</name>
+  </compound>
+  <compound refid="dir_aaa598b24b0974709d79cda4c24ea144" kind="dir"><name>eclipse/com.chaintronics.the78mole/src/com/chaintronics/the78mole</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

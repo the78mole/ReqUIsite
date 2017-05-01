@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="styles/project_html_overview.xsl" type="text/xsl"?>
+
+<!--
+  The specification.
+
+  The text in this example has been copied from the outline that is made
+  available by Andrew Stellman and Jennifer Greene. They have been kind
+  enough to allow it to be reproduced in this XML document.
+
+  (c) Andrew Stellman and Jennifer Greene, used with permission
+-->
+<project
+  xmlns="urn:the78mole:project"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:the78mole:project schema/project.xsd"
+  xmlns:x="http://www.w3.org/1999/xhtml"
+>
+
+  <!-- The project information. -->
+  <title>Requirements Project Example</title>
+  <version>0.0.1</version>
+  <introduction>
+    <scope>Some scope</scope>
+    <overview>Just an overview</overview>
+    <purpose>Just some purpose</purpose>
+  </introduction>
+
+  <references>
+  	<reference type="CustomerSpec" link="./CustomerSpec.xml">Customer Specification</reference>
+  	<reference type="TargetSpec" link="./TargetSpec.xml">Target Specification</reference>
+  </references>
+  
+  <editHistory>
+    <entry author="the78mole" date="2016-08-13T21:00:00">created</entry>
+  </editHistory>
+
+</project>
